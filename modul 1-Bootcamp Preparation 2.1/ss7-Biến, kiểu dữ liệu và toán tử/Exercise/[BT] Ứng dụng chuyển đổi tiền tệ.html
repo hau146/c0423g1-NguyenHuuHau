@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+ <table>
+     <tr>
+         <th>Amount</th>
+         <th>From Currency</th>
+         <th>To Currency</th>
+     </tr>
+     <tr style="height: 30px">
+         <td><input type="text" size="17" id="nhaptiente"></td>
+         <td>
+             <select style="size: 14px" id="tiente1">
+                 <option value="tienviet">VND</option>
+                 <option value="tienmy">USD</option>
+             </select>
+         </td>
+         <td>
+             <select style="size: 14px" id="tiente2">
+                 <option value="tienmy">USD</option>
+                 <option value="tienviet">VND</option>
+             </select>
+         </td>
+         <td><button onclick="convert()" >Convert</button></td>
+     </tr>
+     <tr>
+         <td id="money" style="color: blue"">Result : </td>
+     </tr>
+ </table>
+ <script>
+     function convert() {
+         let input = document.getElementById("nhaptiente").value;
+         let tiente1 = document.getElementById("tiente1").value;
+         let tiente2 = document.getElementById("tiente2").value;
+         if (tiente1 == tiente2) {
+             document.getElementById("money").innerHTML="Result : " + input
+         };
+
+         if (tiente1 =="tienviet" && tiente2 =="tienmy"){
+             document.getElementById("money").innerText="Result : " + input/23000
+         };
+
+         if (tiente1 == "tienmy" && tiente2 =="tienviet"){
+             document.getElementById("money").innerText="Result : " + input*23000
+         };
+     }
+ </script>
+</body>
+</html>
