@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    //dùng hàm alert-->
+    <button type="button" onclick="showmesage()">Click vào tôi!</button>
+    <script>
+        function showmesage() {
+            alert('Xin Chào Hậu nha!');
+
+        }
+    </script>
+
+<!--    dùng hàm doccument.getElmente-->
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        function showMessage() {
+            document.getElementById('messageDiv').innerHTML = 'Xin chào Hậu' ;
+
+        }
+    </script>
+
+<!--    dùng hàm document.wite()-->
+    <button type="button" onclick="ShowMessage()">CLick vào đây nha</button>
+    <script>
+        function ShowMessage() {
+            document.write('Hello Hậu') ;
+        }
+    </script>
+
+<!--    dùng hàm console.log()-->
+    <button type="button" onclick="SHowmessage()">Nhấp vào đây nha!</button>
+    <script>
+        function SHowmessage() {
+            console.log('Hi Hậu!') ;
+
+        }
+    </script>
+</body>
+</html>
