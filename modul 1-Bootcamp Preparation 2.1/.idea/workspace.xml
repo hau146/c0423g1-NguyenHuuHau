@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="" />
+    <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ss10-Cấu trúc lặp/practice/Sử dụng vòng lặp while.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10-Cấu trúc lặp/practice/Sử dụng vòng lặp while.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +128,7 @@
       <workItem from="1683853249264" duration="14167000" />
       <workItem from="1683872692661" duration="7797000" />
       <workItem from="1683894072644" duration="671000" />
-      <workItem from="1683895559632" duration="2491000" />
+      <workItem from="1683895559632" duration="2835000" />
     </task>
     <servers />
   </component>
