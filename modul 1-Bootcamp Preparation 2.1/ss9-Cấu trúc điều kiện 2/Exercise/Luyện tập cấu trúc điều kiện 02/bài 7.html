@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Giải phương trình bậc 2-->
+    <script>
+        let a = prompt("Nhập vào số a");
+        let b = prompt("Nhập vào số b");
+        let c = prompt("Nhập vào số c");
+        let deta = Math.pow(b,2) - 4*a*c;
+        let x1 = (-b - Math.sqrt(deta)) / 2*a;
+        let x2 = (-b + Math.sqrt(deta)) / 2*a;
+        let x3 =(-b)/2*a;
+        if (deta < 0 ){
+            alert('Phương trình bậc 2 vô nghiệm');
+        } else if (deta === 0) {
+            alert('Phương trình bậc 2 có nghiệm kép x1 = x2 =  ' + x3);
+        } else if (deta > 0) {
+            alert('Phương trình bậc 2 có nghiệm x1,x2 là: ' + 'x1= ' + x1 + '; x2= ' + x2 );
+        } else {
+            alert('Vui lòng nhập lại');
+        }
+    </script>
+</body>
+</html>

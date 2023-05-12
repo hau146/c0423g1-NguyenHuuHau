@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Kiểm tra xem một số nhập vào có phải là tuổi của một người không. Một số nguyên là tuổi của một người khi nhỏ 120 và lơn hơn 0-->
+    <script>
+        let year = prompt('Nhập vào một số để kiểm tra tuổi con người: ')
+        if (year < 120 && year > 0){
+            alert('Đây là tuổi của một người')
+        } else if (isNaN(year)) {
+            alert('Vui lòng nhập lại ?')
+        } else {
+            alert('Đây không phải là tuổi của một người')
+        }
+    </script>
+
+</body>
+</html>

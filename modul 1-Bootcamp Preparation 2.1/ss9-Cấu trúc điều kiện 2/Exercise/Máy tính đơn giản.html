@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="tong" type="text"/>
+    <br><br>
+    <table>
+        <tr>
+            <td><input onclick="check(this.value)" type="button" style="width: 40px" value="1"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="2"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="3"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="+"></td>
+        </tr>
+        <tr>
+            <td><input onclick="check(this.value)" type="button" style="width: 40px" value="4"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="5"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="6"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="-"></td>
+        </tr>
+        <tr>
+            <td><input onclick="check(this.value)" type="button" style="width: 40px" value="7"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="8"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="9"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="*"></td>
+        </tr>
+        <tr>
+            <td><input onclick="xoa()" type="button" style="width: 40px" value="AC"></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="0"></td>
+            <td><input onclick="bang()" type="button" style="width: 25px" value="="></td>
+            <td><input onclick="check(this.value)" type="button" style="width: 25px" value="/"></td>
+        </tr>
+    </table>
+
+    <script>
+        let tong = document.getElementById("tong");
+        function check(value){
+            tong.value += value;
+        }
+        function bang() {
+            let bang = eval(tong.value);
+            tong.value = bang;
+        }
+        function xoa() {
+            tong.value ="";
+        }
+    </script>
+
+
+</body>
+</html>

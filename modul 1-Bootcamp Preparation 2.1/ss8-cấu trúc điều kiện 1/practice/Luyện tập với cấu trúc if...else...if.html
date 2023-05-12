@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let userName = prompt('Ai đó ?');
+        if (userName == 'admin') {
+            let pass = prompt('vui lòng điền Password để login');
+            if (pass == 'hau')
+            alert('Chào mừng admin');
+            else if (pass != 'hau')
+            alert('Nhập sai Password');
+        } else if (userName == 'người lạ') {
+            alert('Bạn không thể truy cập vào');
+        } else {
+            alert('Vui lòng điền thông tin lại');
+        }
+    </script>
+</body>
+</html>

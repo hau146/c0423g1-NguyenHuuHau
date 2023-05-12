@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 7: Tính cước điện thoại cho một hộ gia đình với các thông số đã cho-->
+    <script>
+        let tiendt = +prompt('Nhập vào số phút đã gọi: ');
+        let tong = tiendt*3000;
+        if (tiendt >= 1 ){
+            alert('Tiền cước là: ' + tong + 'VND');
+        } else if (tiendt < 1) {
+            alert('Bạn chưa bị trừ tiền cước');
+        } else {
+            alert('Vui lòng nhập đúng');
+        }
+
+
+    </script>
+
+</body>
+</html>

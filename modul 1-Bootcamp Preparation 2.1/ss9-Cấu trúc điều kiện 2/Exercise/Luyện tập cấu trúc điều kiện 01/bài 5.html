@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ-->
+    <script>
+        let kt = +prompt("Nhập điểm bài kiểm tra");
+        let gk = +prompt("Nhập điểm thi giữa kì");
+        let ck = +prompt("Nhập điểm thi cuối kì");
+        let tong = (kt + gk + ck) /3;
+        if ( tong > 8){
+            alert("Học lực đạt loại Giỏi");
+        } else if (tong > 6.5 && tong <= 8){
+            alert('Học lực đạt loại Khá');
+        } else if (tong > 5 && tong <= 6.5){
+            alert('Học lực đạt loại Trung Bình');
+        } else {
+            alert('học lực đạt loại Kém (Quá gà)');
+        }
+    </script>
+
+</body>
+</html>
