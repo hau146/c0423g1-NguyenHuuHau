@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Bảng cửu chương</h1>
+    <script>
+        let j;
+        let i;
+        let bang;
+        bang = "<table border= '1' width='200' cellspacing='1' cellpadding='10' >"
+        for (i =1; i <=10; i++){
+            bang = bang + "<tr>"
+            for (j =1; j <=10; j++ ){
+                bang = bang + "<td>" + j + "*" + i + "=" + i * j + "</td>";
+
+            } bang = bang + "</tr>";
+        } bang = bang + "</table>"
+        document.write(bang);
+    </script>
+</body>
+</html>
