@@ -5,17 +5,22 @@
     <title>Title</title>
 </head>
 <body>
-    <script>
-        let number = +prompt("Nhập một số nguyên");
+<script>
+    let countPrimeFound = 0;
+    let number = 2;
+    do {
         let count = 0;
-        let N = 2;
-        for (count; count < 40; count++){
-            if (count < number){
-                document.write()
-
+        for (let i = 1; i <= number; i++) {
+            if (number % i === 0) {
+                count++;
             }
-        }
-    </script>
+        } if (count === 2){
+            document.write(number + '<br/>')
+            countPrimeFound++;
+        } number++
+    } while (countPrimeFound < 20)
 
+
+</script>
 </body>
 </html>

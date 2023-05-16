@@ -5,20 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+<!--    cho in ra 30 lần-->
     <script>
         let a = 0;
         let b = 1;
         let tong;
-        let i = 0;
-        while (i < 6){
+        let i =0;
+        while (i < 30){
             tong = a + b;
-            a=b;
-            b=tong;
-            if (tong % 5 ===0){
-                document.write(" số đầu tiên trong dãy fibonacci chia hết cho 5 là " + tong);
-            } i++
+            a = b;
+            b = tong;
+            document.write(tong + '<br/>');
+            i++;
         }
-
     </script>
 
 </body>

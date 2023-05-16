@@ -5,13 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-<!--Bài 12: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.-->
     <script>
-        // 1->6 tháng thì lãi suất là 5%
-        // 6-> 12 tháng thì lãi suất là 10%
-        // 12 tháng trở lên thì lãi suất là 20%
-        let tien = +prompt('Nhập số tiền vay: ');
-        let thang = +prompt('Nhập số tháng cho vay: ');
+        for(i = 0; ; i ++){
+            let tien = +prompt('Nhập số tiền vay: ');
+            let thang = +prompt('Nhập số tháng cho vay: ');
         if (thang < 6){
             lai = tien*5/100
             alert('lãi suất ngân hàng là 5%: ' + lai);
@@ -24,6 +21,8 @@
         } else {
             alert('Vui lòng nhập lại');
         }
+        }
     </script>
+
 </body>
 </html>

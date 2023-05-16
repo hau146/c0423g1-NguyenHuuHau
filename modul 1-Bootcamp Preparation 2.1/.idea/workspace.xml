@@ -20,24 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10-Cấu trúc lặp 1/practice/Sử dụng vòng lặp do-while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10-Cấu trúc lặp 1/practice/Sử dụng vòng lặp lồng nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Sinh bảng cửu chương.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 8 (chưa xong).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10-Cấu trúc lặp/practice/Sử dụng vòng lặp while.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10-Cấu trúc lặp 1/practice/Sử dụng vòng lặp while.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10-Cấu trúc lặp/practice/sử dụng vòng lặp for.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10-Cấu trúc lặp 1/practice/sử dụng vòng lặp for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Biến, kiểu dữ liệu&amp; toán tử/[BT] Biến, kiểu dữ liệu &amp; toán tử-Bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Biến, kiểu dữ liệu&amp; toán tử/[BT] Biến, kiểu dữ liệu &amp; toán tử-Bài 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Biến, kiểu dữ liệu&amp; toán tử/[BT] Biến, kiểu dữ liệu &amp; toán tử-Bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Biến, kiểu dữ liệu&amp; toán tử/[BT] Biến, kiểu dữ liệu &amp; toán tử-Bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Biến, kiểu dữ liệu&amp; toán tử/[BT] Biến, kiểu dữ liệu &amp; toán tử-Bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Biến, kiểu dữ liệu&amp; toán tử/[BT] Biến, kiểu dữ liệu &amp; toán tử-Bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Ứng dụng chuyển đổi tiền tệ.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Ứng dụng chuyển đổi tiền tệ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Câu lệnh switch-case.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Câu lệnh switch-case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Luyện tập cấu trúc điều kiện 02/bài 12.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Luyện tập cấu trúc điều kiện 02/bài 12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Tính chỉ số cân nặng/tinhchisocannang.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Tính chỉ số cân nặng/tinhchisocannang.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,29 +85,29 @@
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss8-cấu trúc điều kiện 1\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Câu lệnh switch-case.html">
-    <configuration name="Câu lệnh switch-case.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss9-Cấu trúc điều kiện 2/Exercise/Câu lệnh switch-case.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bài 8 (chưa xong).html">
+    <configuration name="Hiển thị các số nguyên tố đầu tiên.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="[BT] Ứng dụng chuyển đổi tiền tệ.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Ứng dụng chuyển đổi tiền tệ.html" useBuiltInWebServerPort="true">
+    <configuration name="Tính chỉ số cân nặng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss9-Cấu trúc điều kiện 2/Exercise/Tính chỉ số cân nặng/Tính chỉ số cân nặng.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 4.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 4.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 5.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 6.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 8 (chưa xong).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 8 (chưa xong).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Câu lệnh switch-case.html" />
-        <item itemvalue="JavaScript Debug.[BT] Ứng dụng chuyển đổi tiền tệ.html" />
-        <item itemvalue="JavaScript Debug.bài 6.html" />
+        <item itemvalue="JavaScript Debug.bài 8 (chưa xong).html" />
+        <item itemvalue="JavaScript Debug.Hiển thị các số nguyên tố đầu tiên.html" />
         <item itemvalue="JavaScript Debug.bài 5.html" />
-        <item itemvalue="JavaScript Debug.bài 4.html" />
+        <item itemvalue="JavaScript Debug.Tính chỉ số cân nặng.html" />
+        <item itemvalue="JavaScript Debug.bài 4.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +150,12 @@
       <workItem from="1684048529016" duration="5755000" />
       <workItem from="1684062053644" duration="4351000" />
       <workItem from="1684069358430" duration="718000" />
-      <workItem from="1684119534415" duration="510000" />
+      <workItem from="1684119534415" duration="7289000" />
+      <workItem from="1684131510518" duration="12945000" />
+      <workItem from="1684203187620" duration="9081000" />
+      <workItem from="1684218481759" duration="4027000" />
+      <workItem from="1684229577224" duration="1790000" />
+      <workItem from="1684240107143" duration="2492000" />
     </task>
     <servers />
   </component>
@@ -232,10 +235,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1683864637457" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1683798424112">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1684224424634">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1683798424112" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1684224424634" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
