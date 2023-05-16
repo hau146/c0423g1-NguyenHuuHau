@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button onclick="play()">Chơi</button>
+    <script>
+        function play() {
+            let num = +prompt('Số bạn muốn đoán bắt đầu từ số ?');
+            let num2 = +prompt('đến');
+            alert("Bạn sẽ đoán từ " + num + " đến " + num2);
+
+            let random= Math.floor(Math.random() * (num2 - num)+ num);
+            for (let i =0; i < 3; i++){
+                let doan = +prompt("Đoán lần thứ " + (i+1));
+                if (doan === random){
+                    document.write("Bạn Thắng");
+                    break;
+                } else if (doan > 3){
+                    document.write("Bạn đã hết số lần đoán");
+                } else if (doan < random){
+                    alert("Số bạn đoán bé hơn");
+                } else {
+                    alert ("Số bạn đoán lớn hơn");
+                }
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
