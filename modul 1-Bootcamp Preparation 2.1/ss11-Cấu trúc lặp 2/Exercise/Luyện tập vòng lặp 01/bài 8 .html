@@ -5,31 +5,34 @@
     <title>Title</title>
 </head>
 <body>
-    <button onclick="play()">Chơi</button>
-    <script>
-        function play() {
-            let num = +prompt('Số bạn muốn đoán bắt đầu từ số ?');
-            let num2 = +prompt('đến');
-            alert("Bạn sẽ đoán từ " + num + " đến " + num2);
+<button onclick="play()" id="reset">Chơi</button>
+<script>
+    function play() {
+        let num = +prompt('Số bạn muốn đoán bắt đầu từ số ?');
+        let num2 = +prompt('đến');
+        alert("Bạn sẽ đoán từ " + num + " đến " + num2);
 
-            let random= Math.floor(Math.random() * (num2 - num)+ num);
-            for (let i =0; i < 3; i++){
-                let doan = +prompt("Đoán lần thứ " + (i+1));
-                if (doan === random){
-                    document.write("Bạn Thắng");
-                    break;
-                } else if (doan > 3){
-                    document.write("Bạn đã hết số lần đoán");
-                } else if (doan < random){
-                    alert("Số bạn đoán bé hơn");
-                } else {
-                    alert ("Số bạn đoán lớn hơn");
-                }
+        let random = Math.floor(Math.random() * (num2 - num) + num);
+        for (let i = 0; i < 3; i++) {
+            let doan = +prompt("Đoán lần thứ " + (i + 1));
+            if (doan === random) {
+                alert("Bạn Thắng");
+                break;
+            } else if (doan < random) {
+                alert("Số bạn đoán bé hơn");
+            } else if (doan > ramdon) {
+                alert("Số bạn đoán lớn hơn");
             }
-
+            if (i === 2) {
+                alert('Loss')
+                document.getElementById("reset").innerText = "Chơi lại từ đầu";
+            }
         }
 
-    </script>
+
+    }
+
+</script>
 
 </body>
 </html>
