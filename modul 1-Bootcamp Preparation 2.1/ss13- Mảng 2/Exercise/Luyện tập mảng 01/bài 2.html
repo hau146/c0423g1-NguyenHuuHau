@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let number = [3,5,7,12,45,67,43,6,80,14];
+        let max = number[0];
+        let b = 0;
+        for (let i = 1; i < number.length; i++){
+            if (number[i] > max ){
+                max = number[i];
+                b = i;
+            }
+
+        }
+        document.write("Phần tử có giá trị lớn nhất là: " + max + " ở vị trí số " + (b +1)); //hướng đến vị trí người đọc
+    </script>
+
+</body>
+</html>

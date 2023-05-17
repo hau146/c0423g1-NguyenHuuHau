@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let number = [4,27,42,40,67,3,6,70,41];
+        let max = number[0];
+        let sum = 0;
+        for (let i = 0; i < number.length; i++){
+            sum = (sum + number[i]) / number.length
+            if (number[i] > max ){
+                max = number[i];
+            }
+
+        } document.write("Giá trị lớn nhất trong mảng là " + max +"<br/>" + "Giá trị trung bình của các phần tử là " + sum )
+    </script>
+
+</body>
+</html>

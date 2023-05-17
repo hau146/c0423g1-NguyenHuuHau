@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //tạo 2 mảng: tiếng anh và tiếng việt
+        //tìm kiếm vị trí tiếng anh trong mảng 1 thì sẽ hiển thị tiếng việt ở mảng 2
+        //không tìm ra thì hiển thị không tìm thấy
+        let dich = prompt("Nhập từ bạn muốn dịch ra tiếng việt");
+        let end = ['banana', 'red', 'hot', 'apple', 'number'];
+        let viet = ['quả chuối', 'đỏ', 'nóng', 'quả táo', 'số'];
+        let result = [];
+        let a = end.indexOf(dich)
+        let b = viet[a]
+        alert("Từ " + dich + " dịch ra là " + b)
+
+    </script>
+</body>
+</html>
