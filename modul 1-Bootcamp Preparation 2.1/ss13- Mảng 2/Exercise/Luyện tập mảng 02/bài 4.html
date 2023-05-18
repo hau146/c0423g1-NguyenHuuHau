@@ -5,6 +5,18 @@
     <title>Title</title>
 </head>
 <body>
-
+    <script>
+        let number = prompt("nhập vào đây một chuỗi");
+        let a = number.split('');
+        let so = 0;
+        let chu = 0;
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] % 1 === 0) {
+                so++;
+            } else {
+                chu++;
+            }
+        } alert('Có ' + chu + ' từ và Có ' + so + ' số trong chuỗi vừa nhập');
+    </script>
 </body>
 </html>

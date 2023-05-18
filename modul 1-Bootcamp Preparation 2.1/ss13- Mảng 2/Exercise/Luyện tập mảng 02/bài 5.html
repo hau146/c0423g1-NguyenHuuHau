@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //viết một chương trình nhập vào 2 chuỗi
+    //kiểm tra xem 2 chuỗi có giống nhau không
+    let a = prompt("Nhập vào chuỗi thứ 1");
+    let b = prompt("Nhập vào chuỗi thứ 2");
+    let c = a.split('');
+    let d = b.split('');
+    let count = 0;
+    for (i = 0; i < c.length; i++) {
+        if (c[i] === d[i]) {
+            count++;
+        } else {
+            count;
+        }
+    }
+    if (count === c.length) {
+        alert("hai chuỗi này giống nhau");
+    } else {
+        alert("hai chuỗi này không giống nhau");
+    }
+</script>
+
+</body>
+</html>

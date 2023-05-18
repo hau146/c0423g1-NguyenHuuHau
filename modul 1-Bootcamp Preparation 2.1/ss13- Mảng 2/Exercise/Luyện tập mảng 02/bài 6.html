@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //viết chương trình nhập vào một mảng ký tự
+        //tìm tất cả các ký tự trong mảng là (-)
+        //thay thế các ký tự này bởi ký tự ( _ )
+        let array = prompt("Nhập vào đây một mảng");
+        let a = array.split('');
+        for (i = 0; i < a.length; i++){
+            if (a[i] === '-'){
+                a.splice(i,1,'_');
+            }
+        } document.writeln(a.join(""));
+    </script>
+
+</body>
+</html>
