@@ -20,22 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 8 (chưa xong).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Luyện tập cấu trúc điều kiện 02/bài 12.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Luyện tập cấu trúc điều kiện 02/bài 12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Tính chỉ số cân nặng/tinhchisocannang.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Tính chỉ số cân nặng/tinhchisocannang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị lớn nhất trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị lớn nhất trong mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị trong mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tạo và thao tác với mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tạo và thao tác với mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Đảo ngược các phần tử trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Đảo ngược các phần tử trong mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,34 +82,36 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss13- Mảng 2\Exercise" />
+      <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss13- Mảng 2" />
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss9-Cấu trúc điều kiện 2\Exercise\Luyện tập cấu trúc điều kiện 01" />
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss9-Cấu trúc điều kiện 2\Exercise" />
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss8-cấu trúc điều kiện 1\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bài 8 (chưa xong).html">
-    <configuration name="Hiển thị các số nguyên tố đầu tiên.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Hiển thị các số nguyên tố đầu tiên.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bài 3.html">
+    <configuration name="bài 2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Tính chỉ số cân nặng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss9-Cấu trúc điều kiện 2/Exercise/Tính chỉ số cân nặng/Tính chỉ số cân nặng.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 4.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 4.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 3.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 5.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 8 (chưa xong).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 01/bài 8 (chưa xong).html" useBuiltInWebServerPort="true">
+    <configuration name="Đảo ngược các phần tử trong mảng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss12- Mảng 1/practice/Đảo ngược các phần tử trong mảng.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bài 8 (chưa xong).html" />
-        <item itemvalue="JavaScript Debug.Hiển thị các số nguyên tố đầu tiên.html" />
-        <item itemvalue="JavaScript Debug.bài 5.html" />
-        <item itemvalue="JavaScript Debug.Tính chỉ số cân nặng.html" />
-        <item itemvalue="JavaScript Debug.bài 4.html (1)" />
+        <item itemvalue="JavaScript Debug.bài 3.html" />
+        <item itemvalue="JavaScript Debug.bài 2.html (1)" />
+        <item itemvalue="JavaScript Debug.bài 3.html (1)" />
+        <item itemvalue="JavaScript Debug.bài 2.html" />
+        <item itemvalue="JavaScript Debug.Đảo ngược các phần tử trong mảng.html" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +159,12 @@
       <workItem from="1684203187620" duration="9081000" />
       <workItem from="1684218481759" duration="4027000" />
       <workItem from="1684229577224" duration="1790000" />
-      <workItem from="1684240107143" duration="2492000" />
+      <workItem from="1684240107143" duration="4452000" />
+      <workItem from="1684292729515" duration="4576000" />
+      <workItem from="1684304603740" duration="14177000" />
+      <workItem from="1684325903251" duration="9149000" />
+      <workItem from="1684370688143" duration="8635000" />
+      <workItem from="1684390888761" duration="4680000" />
     </task>
     <servers />
   </component>
@@ -231,14 +240,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="877" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
+    <state x="94" y="100" width="581" height="670" key="dock-window-1" timestamp="1684295902858">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="94" y="100" width="581" height="670" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1684295902858" />
+    <state x="94" y="100" width="581" height="670" key="dock-window-2" timestamp="1684295902858">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="94" y="100" width="581" height="670" key="dock-window-2/0.0.1536.864@0.0.1536.864" timestamp="1684295902858" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1683864637457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1683864637457" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1684224424634">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1684393947238">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1684224424634" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1684393947238" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,23 +5,25 @@
     <title>Title</title>
 </head>
 <body>
-    <script>
-        //khởi tạo mảng số nguyên 10 phần tử
-        //V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array"
-        let num1 = [11, 32, 5, 19, 12, 38, 56, 8, 91, 10];
-        let num2 = +prompt("Nhập số nguyên vào bên dưới");
-        let num3 = false;
-        for (let i = 0; i < num1.length -1; i++){
-            if (num1[i] === num2){
-                num3 = true;
-                alert("V is in the array");
-            } else if (num3 === false){
-                alert("V is not in the array");
-            }
+<script>
+    //khởi tạo mảng số nguyên 10 phần tử
+    //V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array"
+    let num1 = [11, 32, 5, 19, 12, 38, 56, 8, 91, 10];
+    let num2 = +prompt("Nhập số nguyên vào bên dưới");
+    let num3 = false;
+    for (let i = 0; i < num1.length - 1; i++) {
+        if (num1[i] === num2) {
+            num3 = true;
+            document.writeln("V is in the array");
+            break;
         }
+    }
+    if (num3 === false) {
+        document.writeln("V is not in the array");
+    }
 
 
-    </script>
+</script>
 
 </body>
 </html>

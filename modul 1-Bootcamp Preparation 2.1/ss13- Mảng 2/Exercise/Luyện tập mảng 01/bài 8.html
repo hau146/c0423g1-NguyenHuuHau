@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //khởi tạo mảng 10 phần tử
+    //sắp xếp mảng theo thứ tự giảm dần
+    // let numbers = [3,5,7,2,4,6,8,9,1,10];
+    // numbers.sort(function (a,b) { //dùng hàm callback
+    //     return b - a;
+    //
+    // }); document.writeln(numbers)
+
+    let numBers = [3, 5, 7, 2, 4, 6, 8, 9, 1, 10];
+    let num = [];
+    let max = numbers[0];
+    let a = numbers.length;
+    for (j = 0; j < a; j++) {
+        for (i = 0; i < numbers.length; i++) {
+            if (max < numbers[i]) {
+                max = numbers[i];
+                // index = i;
+            }
+
+        }
+        num.push(max);
+        numbers.splice(numBers.indexOf(max), 1,);
+        max = numBers[0];
+    }
+
+
+    document.writeln(num)
+
+
+</script>
+
+</body>
+</html>

@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <input type="text" id ="Text"/>
+    <input type="button"  onclick="add()" value="Add"/>
+    <input type="button" onclick="dis()" value="Display"/>
+    <div id="ketqua"></div>
+    <script>
+        let x = 0;
+        let array = Array();
+        function add() {t
+            array[x] = document.getElementById("Text").value;
+            alert("Element: " + array[x] + "Added at index " + x);
+            x++;
+            document.write("Text").value = "";
+
+        }
+        function dis() {
+            let e = "<hr/>";
+            for (let i =0; i < array.length; i++){
+                e+= "Element: " + i + "=" + array[i] + "<br/>";
+            }
+            document.getElementById("ketqua").innerHTML = e;
+
+        }
+
+    </script>
+
 </body>
 </html>

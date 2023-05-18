@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //khởi tạo mảng 10 phần tử
+    //kiểm tra V có thuộc mảng khởi tạo
+    //nếu thuộc thì dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng
+    let tao = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let nhap = +prompt("Nhập vào một số để kiểm tra V có thuộc số đó trong mảng không");
+    for (let i = 0; i < tao.length; i++) {
+        if (nhap === tao[i]) {
+            alert("V thuộc số " + tao[i] + " trong mảng, mảng sẽ xóa số này và gán thêm 0 ở cuối mảng")
+            tao.splice([i], 2); //xóa số thuộc V
+            tao.push(0); //gán 0
+            document.writeln(tao);
+        }
+    }
+</script>
+
+</body>
+</html>

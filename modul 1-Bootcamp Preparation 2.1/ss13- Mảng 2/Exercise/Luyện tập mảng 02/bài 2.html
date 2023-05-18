@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = ['c', 's', 'c', '2', '6', '1'];
+    let b = 0;
+    let c = a.length - 1;
+    while (b < c) {
+        let temp = a[b]
+        a[b] = a[c]
+        a[c] = temp
+        b++
+        c--
+
+    }
+    document.writeln(a.join(""));
+
+</script>
+</body>
+</html>
