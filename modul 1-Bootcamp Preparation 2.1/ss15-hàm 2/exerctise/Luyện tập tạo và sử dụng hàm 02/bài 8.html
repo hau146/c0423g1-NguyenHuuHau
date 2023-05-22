@@ -9,17 +9,21 @@
     //Viết hàm truyền vào mảng số nguyên bất kỳ
     //sau đó đảo ngược mảng số nguyên đó.
     let chuoi = prompt("Nhập vào mảng số nguyên");
-    let ham = chuoi.split('');
-    let number = ham.length - 1
+    let mang = chuoi.split('');
+    let number = mang.length -1;
     function jaw(num) {
         for (let i = 0; i < number; i++) {
             let temp = num[i];
             num[i] = num[number];
             num[number] = temp;
             number--;
-        } return ham;
+        } return mang;
     } alert('các số sau sẽ bị đảo ngược');
-    alert(jaw(ham));
+    alert(jaw(mang));
+
+    // mang.reverse()
+    // alert(mang)
+
 
 </script>
 </body>

@@ -13,21 +13,21 @@
     let a = ['a', 'b', 'c', 'd', 'a', 'a', 'a', 'b', 'b', 'd', 'z', 'x', 'y']
     let b = prompt("Nhập vào để kiểm tra kí tự đó xuất hiện mấy lần");
     let count = 0;
-    let flag = false
+    let flag = false;
 
     function mang(text) {
         for (let i = 0; i < a.length; i++) {
             if (a[i] === text) {
-                result = ++count
+                result = ++count;
                 flag = true;
             }
         }
         if (flag === false) {
             document.writeln('-1');
         }
-        return 'kí tự ' + b + ' xuất hiện ' + result + ' lần'
+        return 'kí tự ' + b + ' xuất hiện ' + result + ' lần';
     }
-    document.writeln(mang(b))
+    document.writeln(mang(b));
 
 
     // a= [1,2,3,4,5]

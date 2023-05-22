@@ -9,6 +9,7 @@
     let ham = prompt("Nhập vào để kiểm tra kí tự vừa nhập có phải là kí tự số không");
     let a = ham.split('');
     let flag = false;
+
     function number(num) {
         for (let i = 0; i < num.length; i++) {
             if (num[i] % 1 === 0) {
@@ -20,8 +21,8 @@
         if (flag === false) {
             return 'kí tự vừa nhập vào: ' + ham + ' (không phải là ký tự số)';
         }
-    } alert(number(a));
-
+    }
+    alert(number(a));
 </script>
 </body>
 </html>
