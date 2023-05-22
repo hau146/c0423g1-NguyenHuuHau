@@ -9,11 +9,14 @@
     let giaiThua = +prompt("Nhập một số nguyên để tính giai thừa");
     let a = 1;
 
-    function factorial(num) {
-        for (let i = 1; i <= num; i++) {
+    function num(number) {
+        for (let i = 1; i <= number; i++) {
             a = a * i;
-        } return 'Giai thừa của ' + num + ' = ' + a;
-    } document.write(factorial(giaiThua));
+        }
+        return a;
+    }
+    document.writeln(num(giaiThua));
+
 </script>
 </body>
 </html>

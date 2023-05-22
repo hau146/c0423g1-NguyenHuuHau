@@ -7,7 +7,7 @@
 <body>
 <script>
     let number = prompt("Mời nhập vào số nguyên bất kì");
-    function numBers(num) {
+    function integer(num) {
         let count = 0;
         for (let i = 1; i <= num; i++) {
             if (num % i === 0) {
@@ -19,7 +19,7 @@
         } else {
             return num + ' không phải là số nguyên tố';
         }
-    } alert(numBers(number));
+    } alert(integer(number));
 </script>
 
 </body>
