@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // //Viết hàm truyền vào một mảng ký tự
+    // //Tạo ô nhập kí tự bất kì
+    // //kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không
+    // //Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1.
+    let a = ['a', 'b', 'c', 'd', 'a', 'a', 'a', 'b', 'b', 'd', 'z', 'x', 'y']
+    let b = prompt("Nhập vào để kiểm tra kí tự đó xuất hiện mấy lần");
+    let count = 0;
+    let flag = false
+
+    function mang(text) {
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] === text) {
+                result = ++count
+                flag = true;
+            }
+        }
+        if (flag === false) {
+            document.writeln('không có kí tự này');
+        }
+        return 'kí tự ' + b + ' xuất hiện ' + result + ' lần'
+    }
+    document.writeln(mang(b))
+
+
+    // a= [1,2,3,4,5]
+    // b= +prompt('nhập vào')
+    // alert(a.indexOf(b))
+</script>
+</body>
+</html>

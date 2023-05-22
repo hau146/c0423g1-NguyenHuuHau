@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let meters = prompt("Nhâp vào meters");
+    let feet = prompt("Nhâp vào feet");
+
+    function meter(mt) {
+        let m = 0.305 * feet;
+        return "meters =" + m + " feet"
+    } document.writeln(meter(meters) + '<br/>')
+
+    function foot(fo) {
+        let f = 3.279 * meters;
+        return "feet = " + f + " meters"
+    } document.writeln(foot(feet))
+</script>
+</body>
+</html>

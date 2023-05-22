@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //viết hàm nhận vào 3 số nguyên bất kì
+    //trả về số nguyên có giá trị nhỏ nhất
+    let jaw = prompt("Nhập vào 3 số nguyên bất kì");
+    let mang = jaw.split('');
+    let min = mang[0];
+    function soNguyen(number) {
+        for (let i = 0; i < mang.length; i++) {
+            if (number[i] < min) {
+                min = mang[i];
+            }
+        } return "số có giá trị nhỏ nhất là " + min;
+    } alert(soNguyen(mang));
+</script>
+</body>
+</html>

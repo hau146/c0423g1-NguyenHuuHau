@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //viết hàm nhận vào một số
+    //nếu là nguyên dương trả về true, ngược lại trả về false
+    let a = prompt('Nhập vào đây một số để kiểm tra');
+    let b = a.split('')
+    let flag = false;
+    function numBers(num) {
+        if (num > 0) {
+            flag = true;
+            return 'Số vừa nhập vào là một số nguyên dương';
+        }
+        if (flag === false) {
+            return 'Số vừa nhập vào không phải là một số nguyên dương';
+        }
+    } alert(numBers(b));
+
+</script>
+</body>
+</html>

@@ -14,7 +14,7 @@
     for (let i = 0; i < tao.length; i++) {
         if (nhap === tao[i]) {
             alert("V thuộc số " + tao[i] + " trong mảng, mảng sẽ xóa số này và gán thêm 0 ở cuối mảng")
-            tao.splice([i], 2); //xóa số thuộc V
+            tao.splice([i], 1); //xóa số thuộc V
             tao.push(0); //gán 0
             document.writeln(tao);
         }

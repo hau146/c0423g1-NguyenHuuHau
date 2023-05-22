@@ -20,24 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14-Hàm 1/practice/Chuyển đổi nhiệt độ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14-Hàm 1/practice/Tìm giá trị nhỏ nhất của mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14-Hàm 1/practice/Tạo và gọi hàm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Chuyển đổi giữa feet và meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị lớn nhất trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị lớn nhất trong mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tìm giá trị trong mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tạo và thao tác với mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Tạo và thao tác với mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12- Mảng 1/practice/Đảo ngược các phần tử trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12- Mảng 1/practice/Đảo ngược các phần tử trong mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Sử dụng các hàm có sẵn của mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Sử dụng các hàm có sẵn của mảng.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,29 +98,29 @@
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss8-cấu trúc điều kiện 1\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bài 3.html">
-    <configuration name="bài 2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 2.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bài 9.html">
+    <configuration name="bài 1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 2.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 3.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 3.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 5.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 3.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 8.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 8.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Đảo ngược các phần tử trong mảng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss12- Mảng 1/practice/Đảo ngược các phần tử trong mảng.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 9.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 9.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bài 3.html" />
-        <item itemvalue="JavaScript Debug.bài 2.html (1)" />
-        <item itemvalue="JavaScript Debug.bài 3.html (1)" />
-        <item itemvalue="JavaScript Debug.bài 2.html" />
-        <item itemvalue="JavaScript Debug.Đảo ngược các phần tử trong mảng.html" />
+        <item itemvalue="JavaScript Debug.bài 9.html" />
+        <item itemvalue="JavaScript Debug.bài 5.html (1)" />
+        <item itemvalue="JavaScript Debug.bài 1.html" />
+        <item itemvalue="JavaScript Debug.bài 8.html" />
+        <item itemvalue="JavaScript Debug.bài 4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +173,18 @@
       <workItem from="1684304603740" duration="14177000" />
       <workItem from="1684325903251" duration="9149000" />
       <workItem from="1684370688143" duration="8635000" />
-      <workItem from="1684390888761" duration="4680000" />
+      <workItem from="1684390888761" duration="12462000" />
+      <workItem from="1684410547505" duration="39000" />
+      <workItem from="1684420424760" duration="628000" />
+      <workItem from="1684463927664" duration="9277000" />
+      <workItem from="1684474814328" duration="631000" />
+      <workItem from="1684478082251" duration="7269000" />
+      <workItem from="1684549360631" duration="7789000" />
+      <workItem from="1684566523878" duration="9575000" />
+      <workItem from="1684632524441" duration="13145000" />
+      <workItem from="1684665577039" duration="5034000" />
+      <workItem from="1684670953595" duration="194000" />
+      <workItem from="1684722924019" duration="3920000" />
     </task>
     <servers />
   </component>
@@ -248,24 +268,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="94" y="100" width="581" height="670" key="dock-window-2/0.0.1536.864@0.0.1536.864" timestamp="1684295902858" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1683864637457">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1684575092426">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1683864637457" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1684575092426" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1684393947238">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1684393947238" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/ss9-Cấu trúc điều kiện 2/Exercise/Luyện tập cấu trúc điều kiện 02/bài 7.html</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

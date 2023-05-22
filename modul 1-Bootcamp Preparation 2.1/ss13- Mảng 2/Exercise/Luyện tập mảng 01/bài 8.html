@@ -16,23 +16,19 @@
 
     let numBers = [3, 5, 7, 2, 4, 6, 8, 9, 1, 10];
     let num = [];
-    let max = numbers[0];
-    let a = numbers.length;
+    let max = numBers[0];
+    let a = numBers.length;
     for (j = 0; j < a; j++) {
-        for (i = 0; i < numbers.length; i++) {
-            if (max < numbers[i]) {
-                max = numbers[i];
-                // index = i;
+        for (i = 0; i < numBers.length; i++) {
+            if (max < numBers[i]) {
+                max = numBers[i];
+                index = i;
             }
-
         }
         num.push(max);
-        numbers.splice(numBers.indexOf(max), 1,);
+        numBers.splice(numBers.indexOf(max),1,);
         max = numBers[0];
-    }
-
-
-    document.writeln(num)
+    } document.writeln(num)
 
 
 </script>

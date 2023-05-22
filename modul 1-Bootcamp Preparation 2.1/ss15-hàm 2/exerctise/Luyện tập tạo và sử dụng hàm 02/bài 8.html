@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Viết hàm truyền vào mảng số nguyên bất kỳ
+    //sau đó đảo ngược mảng số nguyên đó.
+    let chuoi = prompt("Nhập vào mảng số nguyên");
+    let ham = chuoi.split('');
+    let number = ham.length - 1
+    function jaw(num) {
+        for (let i = 0; i < number; i++) {
+            let temp = num[i];
+            num[i] = num[number];
+            num[number] = temp;
+            number--;
+        } return ham;
+    } alert('các số sau sẽ bị đảo ngược');
+    alert(jaw(ham));
+
+</script>
+</body>
+</html>
