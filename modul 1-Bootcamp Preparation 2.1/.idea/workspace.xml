@@ -20,33 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss14-Hàm 1/practice/Chuyển đổi nhiệt độ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14-Hàm 1/practice/Tìm giá trị nhỏ nhất của mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14-Hàm 1/practice/Tạo và gọi hàm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Chuyển đổi giữa feet và meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/hậu khùng nhất .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Practice/Xây dựng lớp date.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Sử dụng các hàm có sẵn của mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Sử dụng các hàm có sẵn của mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,29 +75,29 @@
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss8-cấu trúc điều kiện 1\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bài 9.html">
-    <configuration name="bài 1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Xây dựng lớp date.html">
+    <configuration name="Xây dựng lớp date.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss16-Lập trình hướng đối tượng/Practice/Xây dựng lớp date.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss13- Mảng 2/Exercise/Luyện tập mảng 02/bài 4.html" useBuiltInWebServerPort="true">
+    <configuration name="[BT] Tạo form đơn giản.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss5-HTML Form &amp; Table/Exercise/[BT] Tạo form đơn giản.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 5.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 01/bài 5.html" useBuiltInWebServerPort="true">
+    <configuration name="[BT]Tạo form lấy survey khách hàng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss5-HTML Form &amp; Table/Exercise/[BT]Tạo form lấy survey khách hàng.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 8.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 8.html" useBuiltInWebServerPort="true">
+    <configuration name="hậu khùng nhất .html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/hậu khùng nhất .html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bài 9.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Luyện tập tạo và sử dụng hàm 02/bài 9.html" useBuiltInWebServerPort="true">
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bài 9.html" />
-        <item itemvalue="JavaScript Debug.bài 5.html (1)" />
-        <item itemvalue="JavaScript Debug.bài 1.html" />
-        <item itemvalue="JavaScript Debug.bài 8.html" />
-        <item itemvalue="JavaScript Debug.bài 4.html" />
+        <item itemvalue="JavaScript Debug.Xây dựng lớp date.html" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.hậu khùng nhất .html" />
+        <item itemvalue="JavaScript Debug.[BT]Tạo form lấy survey khách hàng.html" />
+        <item itemvalue="JavaScript Debug.[BT] Tạo form đơn giản.html" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +161,10 @@
       <workItem from="1684632524441" duration="13145000" />
       <workItem from="1684665577039" duration="5034000" />
       <workItem from="1684670953595" duration="194000" />
-      <workItem from="1684722924019" duration="3920000" />
+      <workItem from="1684722924019" duration="8882000" />
+      <workItem from="1684737030221" duration="8689000" />
+      <workItem from="1684803838764" duration="413000" />
+      <workItem from="1684809262145" duration="948000" />
     </task>
     <servers />
   </component>
@@ -212,54 +192,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="484" y="91" key="#tinhchisocannang.js/0.0.1536.864@0.0.1536.864" timestamp="1683790067598" />
-    <state width="877" height="277" key="GridCell.Tab.0.bottom" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.0.bottom" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.0.center" timestamp="1684054923649">
+    <state width="1515" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.0.center" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1684054923649" />
-    <state width="877" height="277" key="GridCell.Tab.0.left" timestamp="1684054923647">
+    <state width="1515" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.0.left" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1684054923647" />
-    <state width="877" height="277" key="GridCell.Tab.0.right" timestamp="1684054923649">
+    <state width="1515" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.0.right" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1684054923649" />
-    <state width="877" height="277" key="GridCell.Tab.1.bottom" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.1.center" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.1.center" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.1.left" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.1.left" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.1.right" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.1.right" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.2.bottom" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.2.bottom" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.2.center" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.2.center" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.2.left" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.2.left" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
-    <state width="877" height="277" key="GridCell.Tab.2.right" timestamp="1684054923650">
+    <state width="1515" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.2.right" timestamp="1684750810935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="877" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1684054923650" />
+    <state width="1515" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
     <state x="94" y="100" width="581" height="670" key="dock-window-1" timestamp="1684295902858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
