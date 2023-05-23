@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Temperature {
+            constructor(poison) {
+                this.poison = poison;
+            }
+            F(){
+                return `${'Độ F là ' + (this.poison * 9/5 + 32)}`
+            }
+            K(){
+                return `${'Độ K là ' + (this.poison + 273.15)}`
+            }
+        }
+        let a = prompt('Nhập vào độ C');
+        let s1 = new Temperature(a);
+        document.writeln(s1.F() + '<br/>' + s1.K());
+    </script>
+</body>
+</html>

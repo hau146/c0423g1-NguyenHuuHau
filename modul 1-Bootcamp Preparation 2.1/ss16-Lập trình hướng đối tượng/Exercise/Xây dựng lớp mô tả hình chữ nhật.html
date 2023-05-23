@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Rectangle {
+            constructor(dai, rong) {
+                this.dai = dai;
+                this.rong = rong;
+            }
+            S(){
+                return `${this.dai * this.rong}` //hàm thì dùng doccument.write => s1.S()
+            }
+            C(){
+                return `${(this.dai + this.rong) * 2}`
+            }
+        }
+        let s1 = new Rectangle(3,5);
+        let s2 = new Rectangle(1,2)
+       document.writeln(s1.S() + '<br/>' + s1.C())
+
+
+
+    </script>
+</body>
+</html>

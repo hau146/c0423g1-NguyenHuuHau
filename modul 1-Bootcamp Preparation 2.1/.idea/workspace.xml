@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/hậu khùng nhất .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Practice/Xây dựng lớp date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả điện thoại.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Practice/Xây dựng lớp hình tròn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15-hàm 2/exerctise/hậu khùng nhất .html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +79,17 @@
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss8-cấu trúc điều kiện 1\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Xây dựng lớp date.html">
-    <configuration name="Xây dựng lớp date.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss16-Lập trình hướng đối tượng/Practice/Xây dựng lớp date.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html">
+    <configuration name="Tạo 1 form tìm kiếm Google.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss5-HTML Form &amp; Table/Practice/Tạo 1 form tìm kiếm Google.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="[BT] Tạo form đơn giản.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss5-HTML Form &amp; Table/Exercise/[BT] Tạo form đơn giản.html" useBuiltInWebServerPort="true">
+    <configuration name="[BT] Ứng dụng chuyển đổi tiền tệ.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Ứng dụng chuyển đổi tiền tệ.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="[BT]Tạo form lấy survey khách hàng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss5-HTML Form &amp; Table/Exercise/[BT]Tạo form lấy survey khách hàng.html" useBuiltInWebServerPort="true">
+    <configuration name="[TH] Khai báo và sử dụng biến.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss7-Biến, kiểu dữ liệu và toán tử/Paractice/[TH] Khai báo và sử dụng biến.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hậu khùng nhất .html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/hậu khùng nhất .html" useBuiltInWebServerPort="true">
+    <configuration name="Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/test.html" useBuiltInWebServerPort="true">
@@ -93,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Xây dựng lớp date.html" />
+        <item itemvalue="JavaScript Debug.Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" />
         <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="JavaScript Debug.hậu khùng nhất .html" />
-        <item itemvalue="JavaScript Debug.[BT]Tạo form lấy survey khách hàng.html" />
-        <item itemvalue="JavaScript Debug.[BT] Tạo form đơn giản.html" />
+        <item itemvalue="JavaScript Debug.[TH] Khai báo và sử dụng biến.html" />
+        <item itemvalue="JavaScript Debug.[BT] Ứng dụng chuyển đổi tiền tệ.html" />
+        <item itemvalue="JavaScript Debug.Tạo 1 form tìm kiếm Google.html" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +168,8 @@
       <workItem from="1684722924019" duration="8882000" />
       <workItem from="1684737030221" duration="8689000" />
       <workItem from="1684803838764" duration="413000" />
-      <workItem from="1684809262145" duration="948000" />
+      <workItem from="1684809262145" duration="8831000" />
+      <workItem from="1684822699663" duration="8032000" />
     </task>
     <servers />
   </component>

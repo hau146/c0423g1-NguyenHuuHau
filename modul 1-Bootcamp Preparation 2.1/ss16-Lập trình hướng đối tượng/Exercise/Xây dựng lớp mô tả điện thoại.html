@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table style="border-collapse: collapse;width: 30%; height: 500%; background-color: saddlebrown" cellpadding="25    ">
+    <tr style="width: 20%; border-bottom: 1px solid">
+        <td colspan="4" style="text-align: center; width: 40%; border-bottom: 1px">NOKIA</td>
+    </tr>
+    <tr></tr>
+    <tr style="height: 300px">
+        <td colspan="2" style="text-align: right">100%</td>
+    </tr>
+    <tr>
+        <td><button>Tin nhắn</button></td>
+        <td colspan="2" style="border-collapse: collapse"><button onclick="myphone()">Bật </button></td>
+
+    </tr>
+</table>
+    <script>
+        class Mobile {
+            constructor(pin, message, inbox, sendmess) { //pin, tin nhắn đang soạn, tin nhắn đến, tin nhắn đã gửi
+                this.pin = pin;
+                this.message = message;
+                this.inbox = inbox;
+                this.sendmess = sendmess;
+            }
+            statuson(){
+                return 'Điện thoại đã được bật'
+            }
+            statusoff(){
+                return 'Điện thoại đã được tắt'
+            }
+            on(){
+                return 'Bật'
+            }
+            off(){
+                return 'Tắt'
+            }
+            charge(){
+                return 'Điện thoại đang được sạc pin'
+            }
+            send(){
+                return 'Soạn tin nhắn'
+            }
+            sendMess(){
+                return 'Gửi tin nhắn đi'
+            }
+            receiveMessages(){
+                return'Tin nhắn đến'
+            }
+            viewMess(){
+                return 'Xem tin nhắn trong hộp thư'
+            }
+            watched(){
+                return 'Xem tin nhắn đã gửi'
+            }
+
+        }
+    </script>
+</body>
+</html>
