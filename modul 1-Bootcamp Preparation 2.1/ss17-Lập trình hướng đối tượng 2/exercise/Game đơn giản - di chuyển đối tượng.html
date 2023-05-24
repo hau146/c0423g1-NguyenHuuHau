@@ -14,25 +14,42 @@
         this.size = size;
 
         this.getMainElement = function () {
-            '<img width="' + this.size + '"' +
-            ' height="' + this.size + '"' +
-            ' src="' + this.image + '"' +
-            ' style="top: ' + this.top + 'px; left:' + this.left + 'px;position:absolute;" />';
+            return '<img width="' + this.size + '"' +
+                ' height="' + this.size + '"' +
+                ' src="' + this.image + '"' +
+                ' style="top: ' + this.top + 'px; left:' + this.left + 'px;position:absolute;" />';
         }
-        this.moveRight = function () {
-            this.left += 20
+        this.getRight = function () {
+            this.left += 20;
             console.log('ok:' + this.left);
         }
+        this.getLeft = function () {
+            this.left -= 20;
+            console.log('ok: ' + this.left);
+        }
     }
 
-    let main = new Main()
+    var main = new Main('https://antimatter.vn/wp-content/uploads/2022/10/hinh-anh-avatar-minion.jpg', 30, 30, 200)
     let flag = true
 
-    function get() {
-        if (main.left < window.innerWidth - hero.size && flag) {
-                main.moveRight()
-            } else 
+    function getStar() {
+        if (main.left < window.innerWidth - main.size && flag) {
+            main.getRight();
+        } else {
+            flag = false;
+            getLeft();
+        }
+        document.getElementById('play').innerHTML = main.getMainElement();
+        setTimeout(getStar, 50);
     }
+
+    function getLeft() {
+        main.getLeft();
+        if (main.left <= main.size) {
+            flag = true;
+        }
+    }
+    getStar();
 </script>
 </body>
 </html>
