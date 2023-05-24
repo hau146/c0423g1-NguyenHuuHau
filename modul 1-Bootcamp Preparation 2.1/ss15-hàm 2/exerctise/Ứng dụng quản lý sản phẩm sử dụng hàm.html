@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h3>Add New Product</h3>
+<table bgcolor="#d3d3d3" style="height: 70px;width: 300px ;border-radius: 3px" cellpadding="10">
+    <tr>
+        <td><input type="text" style="width: 300px; height: 27px" placeholder="New Product..." id="Name1"></td>
+        <td rowspan="2">
+            <button style="width: 50px; height: 30px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen"
+                    onclick="newProduct()">Add
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="text" style="width: 300px; height: 27px" placeholder="New Price..." id="Name2"></td>
+    </tr>
+</table>
+<h4>Display All Product</h4>
+<h5>Product Name</h5>
+<div id="tableProduct"></div>
+<!--<table cellpadding="12" style="width: 500px; height: 40px">-->
+<!--    <tr>-->
+<!--        <td style="font-weight: bold" id="Hi">Sony Xperia</td>-->
+<!--        <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick="editPro()">Edit</button></td>-->
+<!--        <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick="deletePro()">Delete</button></td>-->
+<!--    </tr>-->
+<!--</table>-->
+<script>
+
+    class Product {
+        constructor(name, price) {
+            this.name = name;
+            this.price = price;
+        }
+    }
+
+    let product1 = new Product('Sony Xperia', 1000);
+    let product2 = new Product('Iphone', 2000);
+    let product3 = new Product('Sam Sung', 3000);
+    let pro = []
+    pro.push(product1, product2, product3)
+    disPlayPro(pro)
+
+    function disPlayPro(list) {
+        let table = `<table cellpadding="12" style="width: 500px; height: 40px">`
+        table += `<tr>
+                <th>Product's name</th>
+                <th>Price ($)</th>
+                </tr>`
+        for (let i = 0; i < list.length; i++) {
+            table += `<tr id="product${i}" style=\"font-weight: bold\">
+             <th> ${list[i].name} </th >
+            <th id='gia'> ${list[i].price}  </th >
+            <td></td>
+            <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick='editPro(${i})' id='sua${i}'>Edit</button></td>
+            <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick='deletePro(${i})'>Delete</button></td>
+            </tr>`
+        }
+        table += "</table>";
+        document.getElementById("tableProduct").innerHTML = table;
+    }
+
+    function newProduct() {
+        let name1 = document.getElementById("Name1").value;
+        let name2 = document.getElementById("Name2").value;
+        if (name1 !== "" && name2 !== "") {
+            let product = new Product(name1,name2);
+            pro.push(product);
+        }
+        disPlayPro(pro);
+    }
+
+    function deletePro(index) {
+        pro.splice(index, 1)
+        disPlayPro(pro)
+    }
+
+    function editPro(i) {
+
+        disPlayPro(pro)
+        let text = "";
+        text += `
+            <td><input type="text" value="${pro[i].name}" id="save1${i}" style="width: 150px; height: 27px"></td>
+            <td><input type="text" value="${pro[i].price}" id="save2${i}" style="width: 150px; height: 27px"></td>
+            <td></td>
+            <td colspan="2"><button style=\"width: 60px; height: 40px; background-color: #008000; color: #ffffff; border-radius: 4px; padding: 0; border-color: #228b22\" onclick='savePro(${i})' id='sua${i}'>Save</button></td>
+        `
+        document.getElementById(`product${i}`).innerHTML = text
+    }
+
+    function savePro(i) {
+        let a = document.getElementById(`save1${i}`).value
+        let b = document.getElementById(`save2${i}`).value
+        pro[i].name = a
+        pro[i].price = b
+        disPlayPro(pro)
+    }
+</script>
+</body>
+</html>

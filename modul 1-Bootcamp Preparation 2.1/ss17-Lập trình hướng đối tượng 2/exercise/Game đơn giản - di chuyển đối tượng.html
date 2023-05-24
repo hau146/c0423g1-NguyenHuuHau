@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="play"></div>
+<script>
+    function Main(image, top, left, size) {
+        this.image = image;
+        this.top = top;
+        this.left = left;
+        this.size = size;
+
+        this.getMainElement = function () {
+            '<img width="' + this.size + '"' +
+            ' height="' + this.size + '"' +
+            ' src="' + this.image + '"' +
+            ' style="top: ' + this.top + 'px; left:' + this.left + 'px;position:absolute;" />';
+        }
+        this.moveRight = function () {
+            this.left += 20
+            console.log('ok:' + this.left);
+        }
+    }
+
+    let main = new Main()
+    let flag = true
+
+    function get() {
+        if (main.left < window.innerWidth - hero.size && flag) {
+                main.moveRight()
+            } else 
+    }
+</script>
+</body>
+</html>
