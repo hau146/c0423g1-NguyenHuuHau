@@ -9,19 +9,64 @@
 <h3>Add New Product</h3>
 <table bgcolor="#d3d3d3" style="height: 70px;width: 300px ;border-radius: 3px" cellpadding="10">
     <tr>
-        <td><input type="text" style="width: 300px; height: 27px" placeholder="new product"></td>
-        <td><button style="width: 50px; height: 30px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen">Add</button></td>
+        <td><input type="text" style="width: 300px; height: 27px" placeholder="Nhập tên điện thoại" id="Name"></td>
+        <td><button style="width: 50px; height: 30px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick="newProduct()">Add</button></td>
     </tr>
 </table>
 <h4>Display All Product</h4>
 <h5>Product Name</h5>
-<table cellpadding="12" style="width: 500px; height: 40px">
-    <tr>
-        <td style="font-weight: bold">Sony Xperia</td>
-        <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen">Edit</button></td>
-        <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen">Delete</button></td>
-    </tr>
-</table>
+<input type="text" id="Edit">
+<div id="tableProduct"></div>
+<!--<table cellpadding="12" style="width: 500px; height: 40px">-->
+<!--    <tr>-->
+<!--        <td style="font-weight: bold" id="Hi">Sony Xperia</td>-->
+<!--        <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick="editPro()">Edit</button></td>-->
+<!--        <td><button style="width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen" onclick="deletePro()">Delete</button></td>-->
+<!--    </tr>-->
+<!--</table>-->
+<script>
+    class Product {
+        constructor(name) {
+            this.name = name;
+        }
+    }
+    let product1 = new Product('Sony Xperia');
+    let product2 = new Product('Iphone');
+    let product3 = new Product('Sam Sung');
+    let pro = []
+    pro.push(product1, product2, product3)
+    displaypro(pro)
 
+    function displaypro(list) {
+        let table = "<table cellpadding=\"12\" style=\"width: 500px; height: 40px\">"
+
+        for (let i = 0; i < list.length; i++) {
+            table += "<tr style=\"font-weight: bold\">";
+            table += "<td>" + list[i].name + "</td >";
+            table += "<td>" + "<button style=\"width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen\" onclick='editPro'>Edit</button>" + "</td>"
+            table += "<td>" + "<button style=\"width: 60px; height: 40px; background-color: green; color: white; border-radius: 4px; padding: 0; border-color: forestgreen\" onclick='deletePro(" + i + ")'>Delete</button>" + "</td>";
+            table += "</tr>";
+        }
+        table += "</table>";
+        document.getElementById("tableProduct").innerHTML = table;
+    }
+
+    function newProduct() {
+        let name = document.getElementById("Name").value;
+        let product = new Product(name);
+        pro.push(product);
+        displaypro(pro);
+        document.getElementById("Hi").value =""
+    }
+    
+    function deletePro(index) {
+        pro.splice(index, 1)
+        displaypro(pro)
+    }
+    function editPro() {
+        let hi = document.getElementById("Edit").value;
+        
+    }
+</script>
 </body>
 </html>
