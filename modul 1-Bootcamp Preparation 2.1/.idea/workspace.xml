@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e69dce9-33d4-4c40-ab97-0fa87a27c5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả điện thoại.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Practice/Xây dựng lớp hình tròn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15-hàm 2/exerctise/hậu khùng nhất .html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13- Mảng 2/Exercise/Luyện tập mảng 01/bài 8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả điện thoại.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả điện thoại.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17-Lập trình hướng đối tượng 2/exercise/Game đơn giản - di chuyển đối tượng.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17-Lập trình hướng đối tượng 2/exercise/Game đơn giản - di chuyển đối tượng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +77,17 @@
       <recent name="D:\codegym-javafulltack\modul 1-Bootcamp Preparation 2.1\ss8-cấu trúc điều kiện 1\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html">
-    <configuration name="Tạo 1 form tìm kiếm Google.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss5-HTML Form &amp; Table/Practice/Tạo 1 form tìm kiếm Google.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
+    <configuration name="Game đơn giản - di chuyển đối tượng.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss17-Lập trình hướng đối tượng 2/exercise/Game đơn giản - di chuyển đối tượng.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="[BT] Ứng dụng chuyển đổi tiền tệ.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss7-Biến, kiểu dữ liệu và toán tử/Exercise/[BT] Ứng dụng chuyển đổi tiền tệ.html" useBuiltInWebServerPort="true">
+    <configuration name="Xây dựng lớp mô tả điện thoại.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss16-Lập trình hướng đối tượng/Exercise/Xây dựng lớp mô tả điện thoại.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="[TH] Khai báo và sử dụng biến.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss7-Biến, kiểu dữ liệu và toán tử/Paractice/[TH] Khai báo và sử dụng biến.html" useBuiltInWebServerPort="true">
+    <configuration name="bài 3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss11-Cấu trúc lặp 2/Exercise/Luyện tập vòng lặp 02/bài 3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss15-hàm 2/exerctise/Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" useBuiltInWebServerPort="true">
+    <configuration name="mô phỏng câu chuyện Adam và Eva.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/ss17-Lập trình hướng đối tượng 2/exercise/mô phỏng câu chuyện Adam và Eva.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/modul 1-Bootcamp Preparation 2.1/test.html" useBuiltInWebServerPort="true">
@@ -97,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Ứng dụng quản lý sản phẩm sử dụng hàm (chưa xong).html" />
         <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="JavaScript Debug.[TH] Khai báo và sử dụng biến.html" />
-        <item itemvalue="JavaScript Debug.[BT] Ứng dụng chuyển đổi tiền tệ.html" />
-        <item itemvalue="JavaScript Debug.Tạo 1 form tìm kiếm Google.html" />
+        <item itemvalue="JavaScript Debug.bài 3.html" />
+        <item itemvalue="JavaScript Debug.Xây dựng lớp mô tả điện thoại.html" />
+        <item itemvalue="JavaScript Debug.Game đơn giản - di chuyển đối tượng.html" />
+        <item itemvalue="JavaScript Debug.mô phỏng câu chuyện Adam và Eva.html" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +168,16 @@
       <workItem from="1684803838764" duration="413000" />
       <workItem from="1684809262145" duration="8831000" />
       <workItem from="1684822699663" duration="8032000" />
+      <workItem from="1684848255765" duration="6734000" />
+      <workItem from="1684857388128" duration="525000" />
+      <workItem from="1684890473701" duration="217000" />
+      <workItem from="1684896201892" duration="7901000" />
+      <workItem from="1684909632555" duration="8734000" />
+      <workItem from="1684921231973" duration="3000" />
+      <workItem from="1684921506360" duration="2058000" />
+      <workItem from="1684930694473" duration="13369000" />
+      <workItem from="1684977244232" duration="9778000" />
+      <workItem from="1684996177345" duration="10548000" />
     </task>
     <servers />
   </component>
@@ -197,54 +205,58 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="484" y="91" key="#tinhchisocannang.js/0.0.1536.864@0.0.1536.864" timestamp="1683790067598" />
-    <state width="1515" height="277" key="GridCell.Tab.0.bottom" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.0.bottom" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.0.center" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.0.center" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.0.left" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.0.left" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.0.right" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.0.right" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.1.bottom" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.1.center" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.1.center" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.1.left" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.1.left" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.1.right" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.1.right" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.2.bottom" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.2.bottom" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.2.center" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.2.center" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.2.left" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.2.left" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
-    <state width="1515" height="277" key="GridCell.Tab.2.right" timestamp="1684750810935">
+    <state width="1515" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="1515" height="277" key="GridCell.Tab.2.right" timestamp="1684945790070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1684750810935" />
+    <state width="1515" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1684945790070" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1684854409072">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1684854409072" />
     <state x="94" y="100" width="581" height="670" key="dock-window-1" timestamp="1684295902858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -257,9 +269,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1684575092426" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1684393947238">
+    <state x="430" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1684933785413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1684393947238" />
+    <state x="430" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1684933785413" />
   </component>
 </project>

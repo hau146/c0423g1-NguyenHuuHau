@@ -5,6 +5,23 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let arrnew = [1,5,10, -2]
 
+    function swap(arr) {
+
+
+        arrnew = arr;
+        let temp = arr[0]
+        arr[0] = arr[arr.length - 1]
+        arr[arr.length - 1] = temp
+
+        return arrnew;
+    }
+
+    console.log(swap(arrnew))
+
+
+</script>
 </body>
 </html>

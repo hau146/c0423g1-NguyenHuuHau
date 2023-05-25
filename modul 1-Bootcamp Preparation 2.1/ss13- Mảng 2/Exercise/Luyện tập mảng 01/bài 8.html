@@ -7,30 +7,18 @@
 <body>
 <script>
     //khởi tạo mảng 10 phần tử
-    //sắp xếp mảng theo thứ tự giảm dần
-    // let numbers = [3,5,7,2,4,6,8,9,1,10];
-    // numbers.sort(function (a,b) { //dùng hàm callback
-    //     return b - a;
-    //
-    // }); document.writeln(numbers)
-
-    let numBers = [3, 5, 7, 2, 4, 6, 8, 9, 1, 10];
-    let num = [];
-    let max = numBers[0];
-    let a = numBers.length;
-    for (j = 0; j < a; j++) {
-        for (i = 0; i < numBers.length; i++) {
-            if (max < numBers[i]) {
-                max = numBers[i];
-                index = i;
-            }
+    //kiểm tra V có thuộc mảng khởi tạo
+    //nếu thuộc thì dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng
+    let tao = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let nhap = +prompt("Nhập vào một số để kiểm tra V có thuộc số đó trong mảng không");
+    for (let i = 0; i < tao.length; i++) {
+        if (nhap === tao[i]) {
+            alert("V thuộc số " + tao[i] + " trong mảng, mảng sẽ xóa số này và gán thêm 0 ở cuối mảng")
+            tao.splice([i], 1); //xóa số thuộc V
+            tao.push(0); //gán 0
+            document.writeln(tao);
         }
-        num.push(max);
-        numBers.splice(numBers.indexOf(max),1,);
-        max = numBers[0];
-    } document.writeln(num)
-
-
+    }
 </script>
 
 </body>

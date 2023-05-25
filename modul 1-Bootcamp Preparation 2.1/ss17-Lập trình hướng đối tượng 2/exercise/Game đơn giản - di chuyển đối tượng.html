@@ -21,34 +21,51 @@
         }
         this.getRight = function () {
             this.left += 20;
-            console.log('ok:' + this.left);
+            console.log('ok right:' + this.left);
         }
         this.getLeft = function () {
             this.left -= 20;
-            console.log('ok: ' + this.left);
+            console.log('ok left: ' + this.left);
+        }
+        this.getDown = function () {
+            this.top += 20;
+            console.log('ok down: ' + this.top);
+        }
+        this.getUp = function () {
+            this.top -= 20;
+            console.log('ok up: ' + this.top);
         }
     }
 
-    var main = new Main('https://antimatter.vn/wp-content/uploads/2022/10/hinh-anh-avatar-minion.jpg', 30, 30, 200)
-    let flag = true
+    let main = new Main('https://antimatter.vn/wp-content/uploads/2022/10/hinh-anh-avatar-minion.jpg', 20, 30, 200);
+    let flag = true;
 
     function getStar() {
         if (main.left < window.innerWidth - main.size && flag) {
             main.getRight();
+        } else if (main.top < window.innerHeight - main.size && flag) {
+            main.getDown();
         } else {
             flag = false;
             getLeft();
         }
         document.getElementById('play').innerHTML = main.getMainElement();
-        setTimeout(getStar, 50);
+        setTimeout(getStar, 100);
     }
 
     function getLeft() {
-        main.getLeft();
-        if (main.left <= main.size) {
+
+        if (main.left > 0) {
+            main.getLeft();
+        } else if (main.top > 0 && main.left < 0) {
+            console.log(main.top);
+            main.getUp();
+        } else {
             flag = true;
+            getStar();
         }
     }
+
     getStar();
 </script>
 </body>
