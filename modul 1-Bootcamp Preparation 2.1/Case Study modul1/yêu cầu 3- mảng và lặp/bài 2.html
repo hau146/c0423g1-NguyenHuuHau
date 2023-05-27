@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('Nhập vào mảng 1');
+    let b = prompt('Nhập vào mảng 2');
+    a = a.split("");
+    b = b.split("");
+    let temp = [];
+    for (let i = 0; i < b.length; i++) {
+        if (a.indexOf(b[i]) === -1) {
+            temp.push(b[i]);
+        }
+    }
+    document.writeln(temp);
+</script>
+</body>
+</html>

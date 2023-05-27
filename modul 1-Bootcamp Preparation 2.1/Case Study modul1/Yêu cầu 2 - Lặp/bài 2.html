@@ -5,18 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-    <script>
-        let h = prompt('Nhập vào chiều cao tam giác')
-        for (let i = 0; i < h ; i++) {
-            for (let j = 0; j < h*2 ; j++) {
-                if(j+i>=h||j-i<=h){
-                    document.writeln('*')
-                } else {
-                    document.writeln('&nbsp;&nbsp')
-                }
+<script>
+    let h = +prompt('Nhập vào chiều cao tam giác');
+    for (let i = 0; i < h; i++) {
+        for (let j = 0; j < h * 2; j++) {
+            if (j >= h - i && j <= h + i) {
+                document.writeln("*");
+            } else {
+                document.writeln('&nbsp&nbsp');
+
             }
-            document.writeln('</br>')
         }
-    </script>
+        document.writeln('</br>');
+    }
+</script>
 </body>
 </html>
