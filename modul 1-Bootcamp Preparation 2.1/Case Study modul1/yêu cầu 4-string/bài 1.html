@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('Nhập vào để chuẩn hóa xâu kí tự');
+    a = a.split(" ");
+    let box = "";
+    max = a[0];
+
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] === "" && a[i + 1] === "") {
+            a.splice(i, 1);
+            i--;
+        } else if (a[i] !== "") {
+            a[i] = a[i].toLowerCase();
+            box = a[i];
+            box = box.split('');
+            box[0] = box[0].toUpperCase();
+            box = box.join('');
+            a[i] = box;
+        }
+
+        if (max.length <= a[i].length) {
+            max = a[i];
+        }
+
+
+    }
+    document.writeln('Từ sau khi được chuẩn hóa là: ' + a.join(' ') + '</br>');
+    document.writeln('Từ dài nhất trong xâu kí tự là: ' + max);
+</script>
+</body>
+</html>

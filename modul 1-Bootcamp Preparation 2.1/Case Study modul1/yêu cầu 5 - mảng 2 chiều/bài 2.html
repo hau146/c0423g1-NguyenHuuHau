@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = [[2, 3, 4, 7], [11, 15, 13, 10]]
+    let count = 0;
+    debugger
+    for (let i = 0; i < number.length; i++) {
+        for (let j = 0; j < number[i].length; j++) {
+            if (number[i][j] % (i+1) === 0) {
+                count++
+            }
+
+        }
+        if (count === 2){
+            document.writeln(number)
+            count++
+        }
+    } document.writeln(count)
+</script>
+</body>
+</html>

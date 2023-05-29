@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>Vui lòng xem menu và chọn các loại đồ uống sau :</li>
+    <ol>
+        <li>Cafe</li>
+        <li>Cam vắt</li>
+        <li>Nước ép cà rốt</li>
+        <li>Nước ép cà chua</li>
+        <li>Nước lọc</li>
+        <li>Nước dừa</li>
+        <li>Thoát menu gọi nước</li>
+    </ol>
+    </br>
+    <button onclick="Add()">Nhấn vào để order</button>
+</ul>
+<script>
+    let number = [1, 2, 3, 4, 5, 6];
+    let a;
+    let b;
+
+    function Add() {
+
+        do {
+            a = +prompt('Nhập vào số tương ứng để gọi nước');
+
+        } while (a > 7);
+
+        switch (a) {
+            case 1:
+                alert('Bạn sẽ gọi Cafe (giá 12.000vnd)');
+                b = +prompt('Nhập số lượng nước');
+                alert('Tổng thiệt hại là ' + b * 12000 + ' vnd');
+                break;
+            case 2:
+                alert('Bạn sẽ gọi Cam vắt (giá 13.000vnd)');
+                b = +prompt('Nhập số lượng nước');
+                alert('Tổng thiệt hại là ' + b * 13000 + ' vnd');
+                break;
+            case 3:
+                alert('Bạn sẽ gọi Nước ép cà rốt (giá 14.000vnd)');
+                b = +prompt('Nhập số lượng nước');
+                alert('Tổng thiệt hại là ' + b * 14000 + ' vnd');
+                break;
+            case 4:
+                alert('Bạn sẽ gọi Nước ép cà chua (giá 15.000vnd)');
+                b = +prompt('Nhập số lượng nước');
+                alert('Tổng thiệt hại là ' + b * 15000 + ' vnd');
+                break;
+            case 5:
+                alert('Bạn sẽ gọi Nước lọc (giá 10.000vnd)');
+                b = +prompt('Nhập số lượng nước');
+                alert('Tổng thiệt hại là ' + b * 10000 + ' vnd');
+                break;
+            case 6:
+                alert('Bạn sẽ gọi Nước dừa (giá 15.000vnd)');
+                b = +prompt('Nhập số lượng nước');
+                alert('Tổng thiệt hại là ' + b * 15000 + ' vnd');
+                break;
+            case 7:
+                alert('Cảm ơn quý khách!');
+                break;
+        }
+    }
+
+
+</script>
+</body>
+</html>

@@ -9,7 +9,7 @@
     let h = +prompt('Nhập vào chiều cao tam giác');
     for (let i = 0; i < h; i++) {
         for (let j = 0; j < h * 2; j++) {
-            if (j >= h - i && j <= h + i) {
+            if (j - i <= h && j + i >= h) {
                 document.writeln("*");
             } else {
                 document.writeln('&nbsp&nbsp');
