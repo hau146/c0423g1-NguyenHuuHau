@@ -17,56 +17,53 @@
         <li>Thoát menu gọi nước</li>
     </ol>
     </br>
-    <button onclick="Add()">Nhấn vào để order</button>
+    <button onclick="order()">Nhấn vào để order</button>
 </ul>
 <script>
-    let number = [1, 2, 3, 4, 5, 6];
-    let a;
-    let b;
+    let giaTien = [12000, 13000, 14000, 15000, 10000, 15000];
+    let option;
+    let soTien = 0;
+    let menu = ""
 
-    function Add() {
-
+    function order() {
         do {
-            a = +prompt('Nhập vào số tương ứng để gọi nước');
+            option = +prompt('Nhập vào số tương ứng để gọi nước');
+            let soLuong = 0;
+            switch (option) {
+                case 1:
+                    soLuong = +prompt('Nhập số lượng nước');
+                    menu += "Cà phê với số lượng " + soLuong + "\n";
+                    soTien += soLuong * giaTien[option -1]
+                    break;
+                case 2:
+                    soLuong = +prompt('Nhập số lượng nước');
+                    menu += "Cam vắt với số lượng " + soLuong + "\n";
+                    soTien += soLuong * giaTien[option -1]
+                    break;
+                case 3:
+                    soLuong = +prompt('Nhập số lượng nước');
+                    menu += "Nước ép cà rốt với số lượng " + soLuong + "\n";
+                    soTien += soLuong * giaTien[option -1]
+                    break;
+                case 4:
+                    soLuong = +prompt('Nhập số lượng nước');
+                    menu += "Nước ép cà chua với số lượng " + soLuong + "\n";
+                    soTien += soLuong * giaTien[option -1]
+                    break;
+                case 5:
+                    soLuong = +prompt('Nhập số lượng nước');
+                    menu += "Nước lọc với số lượng " + soLuong + "\n";
+                    soTien += soLuong * giaTien[option -1]
+                    break;
+                case 6:
+                    soLuong = +prompt('Nhập số lượng nước');
+                    menu += "Nước dừa với số lượng " + soLuong + "\n";
+                    soTien += soLuong * giaTien[option -1]
+                    break;
+            }
+        } while (soTien > 7 || soTien <= 0);
 
-        } while (a > 7);
-
-        switch (a) {
-            case 1:
-                alert('Bạn sẽ gọi Cafe (giá 12.000vnd)');
-                b = +prompt('Nhập số lượng nước');
-                alert('Tổng thiệt hại là ' + b * 12000 + ' vnd');
-                break;
-            case 2:
-                alert('Bạn sẽ gọi Cam vắt (giá 13.000vnd)');
-                b = +prompt('Nhập số lượng nước');
-                alert('Tổng thiệt hại là ' + b * 13000 + ' vnd');
-                break;
-            case 3:
-                alert('Bạn sẽ gọi Nước ép cà rốt (giá 14.000vnd)');
-                b = +prompt('Nhập số lượng nước');
-                alert('Tổng thiệt hại là ' + b * 14000 + ' vnd');
-                break;
-            case 4:
-                alert('Bạn sẽ gọi Nước ép cà chua (giá 15.000vnd)');
-                b = +prompt('Nhập số lượng nước');
-                alert('Tổng thiệt hại là ' + b * 15000 + ' vnd');
-                break;
-            case 5:
-                alert('Bạn sẽ gọi Nước lọc (giá 10.000vnd)');
-                b = +prompt('Nhập số lượng nước');
-                alert('Tổng thiệt hại là ' + b * 10000 + ' vnd');
-                break;
-            case 6:
-                alert('Bạn sẽ gọi Nước dừa (giá 15.000vnd)');
-                b = +prompt('Nhập số lượng nước');
-                alert('Tổng thiệt hại là ' + b * 15000 + ' vnd');
-                break;
-            case 7:
-                alert('Cảm ơn quý khách!');
-                break;
-        }
-    }
+    } alert(menu + 'Tổng số tiền là ' + soTien);
 
 
 </script>

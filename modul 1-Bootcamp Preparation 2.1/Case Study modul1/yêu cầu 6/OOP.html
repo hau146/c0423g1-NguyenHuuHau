@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="add()">Thêm mới học viên</button>
+<button onclick="edit()">Sửa thông tin học viên</button>
+<button onclick="xoa()">Xóa học viên</button>
+<br><br>
+
+<div id='tableStudent'></div>
+<script>
+    class Student {
+        constructor(id, ten, lop, email, ngaysinh, module) {
+            this.id = id;
+            this.ten = ten;
+            this.lop = lop;
+            this.email = email;
+            this.ngaysinh = ngaysinh;
+            this.module = module;
+        }
+
+        getId(id) {
+            return this.id;
+        }
+
+        setId(id) {
+            this.id = id;
+        }
+
+        getTen(ten) {
+            return this.ten;
+        }
+
+        setTen(ten) {
+            this.ten = ten;
+        }
+
+        getLop(lop) {
+            return this.lop;
+        }
+
+        setLop(lop) {
+            this.lop = lop;
+        }
+
+        getEmail(email) {
+            return this.email;
+        }
+
+        setEmail(email) {
+            this.email = email;
+        }
+
+        getNgaySinh(ngaysinh) {
+            return this.ngaysinh;
+        }
+
+        setNgaySinh(ngaysinh) {
+            this.ngaysinh = ngaysinh;
+        }
+
+        getModule(module) {
+            return this.module;
+        }
+
+        setModule(module) {
+            this.module = module;
+        }
+
+
+    }
+
+    let countId = 0;
+
+    let info1 = new Student(checkId(++countId), `Nguyễn Văn A`, `C1022G1`, `A@gmail.com`, `01/01/2004`, `1`);
+    let info2 = new Student(checkId(++countId), `Nguyễn Văn B`, `C1122G1`, `B@gmail.com`, `03/03/2004`, `2`);
+    let info = [];
+    info.push(info1, info2);
+    infoStudent(info);
+
+    function infoStudent(list) {
+        let table = `<table border="1" style="text-align: center; border-collapse: collapse">`
+        table += `<tr>
+                  <th>Mã học viên</th>
+                  <th>Tên</th>
+                  <th>Lớp</th>
+                  <th>Email</th>
+                  <th>Ngày Sinh</th>
+                  <th>Module</th>
+                  </tr>`
+        for (let i = 0; i < list.length; i++) {
+            table += `<tr id="student">
+                        <th>HV-${list[i].id}</th>
+                        <th>${list[i].ten}</th>
+                        <th>${list[i].lop}</th>
+                        <th>${list[i].email}</th>
+                        <th>${list[i].ngaysinh}</th>
+                        <th>${list[i].module}</th>
+                       </tr>`
+        }
+        table += `</table>`
+        document.getElementById(`tableStudent`).innerHTML = table;
+    }
+
+    function xoa() {
+        let id = prompt('Bạn muốn xóa mã học viên nào ?');
+        for (let i = 0; i < info.length; i++) {
+            if (id === info[i].id) {
+                if (confirm('Bạn có muốn xóa không ?')) {
+                    info.splice(i, 1);
+                }
+            } else {
+                alert('Mã học viên không tồn tại');
+                break;
+            }
+
+        }
+        infoStudent(info);
+    }
+
+
+    function add() {
+        let ten = prompt('Tên học viên');
+        let lop = prompt('Lớp học viên');
+        let email = prompt('Email học viên');
+        let ngaySinh = prompt('Ngày sinh học viên');
+        let module;
+        do {
+            module = +prompt("Nhập vào module");
+        } while (module <= 0 || module > 6);
+
+        let student = new Student(checkId(++countId), ten, lop, email, ngaySinh, module);
+        info.push(student);
+        infoStudent(info);
+    }
+
+    function edit() {
+
+        let maHocVien = prompt('Nhập vào mã học viên cần sửa chữa');
+        for (let i = 0; i < info.length; i++) {
+            if (maHocVien === info[i].id) {
+                info[i].setId(maHocVien)
+                let editMa = prompt('HV-' + info[i].id + ' sửa thành mã');
+                if (editMa !== "") {
+                    info[i].setId(editMa);
+                }
+                let editTen = prompt(info[i].ten + ' sửa thành Tên');
+                if (editTen !== "") {
+                    info[i].setTen(editTen);
+                }
+                let editLop = prompt(info[i].lop + ' sửa thành Lớp');
+                if (editLop !== "") {
+                    info[i].setLop(editLop);
+                }
+                let editEmail = prompt(info[i].email + ' sửa thành Email');
+                if (editEmail !== "") {
+                    info[i].setEmail(editEmail);
+                }
+                let editDate = prompt(info[i].ngaysinh + ' sửa thành Ngày Sinh');
+                if (editDate !== "") {
+                    info[i].setDate(editDate);
+                }
+                let editModule = prompt('Module ' + info[i].module + ' sửa thành Module');
+                if (editModule !== "" && editModule >= 0 && editModule < 7) {
+                    info[i].setModule(editModule);
+                } else {
+                    alert('Modul không đúng');
+                }
+            }
+        }
+        document.getElementById(`student`).value;
+        infoStudent(info);
+
+    }
+
+    function checkId(a) {
+        let preId = "";
+        for (let i = 4; i > (a + '').length; i--) {
+            preId += "0";
+        }
+        return preId + a;
+    }
+
+</script>
+</body>
+</html>
