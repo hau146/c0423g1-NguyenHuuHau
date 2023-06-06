@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tongModule = +prompt('Nhập tổng số buổi module');
+    let module = +prompt('Nhập số buổi vắng nghỉ');
+    let r = (module/tongModule) * 100
+    if (r > 10){
+        alert('Gửi mail warning');
+    } else if (r >= 20){
+        alert('Buộc chuyển lớp');
+    } else {
+        alert('Chưa cần gửi mail');
+    }
+
+
+
+</script>
+</body>
+</html>

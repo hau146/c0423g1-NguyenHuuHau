@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="num" placeholder="VND">
+<select id="num1">
+    <option value="tienmy">USD (đô la)</option>
+    <option value="tiennhat">JPY (yên)</option>
+    <option value="tienviet">VND (vnd)</option>
+    <option value="tientrung">RMB (tệ)</option>
+    <option value="tienanh">GBP (pound - bảng anh)</option>
+</select>
+<button onclick="checkMoney()">Quy Đổi</button></br>
+<div id="ketqua"></div>
+<script>
+    function checkMoney() {
+        let tien = document.getElementById("num").value;
+        let tien1 = document.getElementById("num1").value;
+        if (tien1 === "tienmy"){
+            document.getElementById("ketqua").innerHTML = tien/23000 + ' USD';
+        }
+        if (tien1 === "tiennhat"){
+            document.getElementById("ketqua").innerHTML = tien/16865 + 'JPY';
+        }
+        if (tien1 === "tientrung"){
+            document.getElementById("ketqua").innerHTML = tien/3551 + ' RMB';
+        }
+        if (tien1 === "tienanh"){
+            document.getElementById("ketqua").innerHTML = tien/30 + ' GBP';
+        }
+    }
+</script>
+</body>
+</html>

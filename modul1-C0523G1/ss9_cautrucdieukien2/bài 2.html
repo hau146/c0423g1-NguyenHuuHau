@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let luong = +prompt('Nhập vào lương');
+    let gio = +prompt('Nhập vào giờ làm việc');
+    if (gio >= 200) {
+        document.writeln('Thưởng ' + luong * 0.2);
+    } else if (gio >= 100 && gio < 200) {
+        document.writeln('Thưởng ' + luong * 0.1);
+    } else {
+        document.writeln('Không có thưởng');
+    }
+</script>
+</body>
+</html>
