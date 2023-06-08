@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let con = +prompt('Nhập vào tuổi con');
+    let cha = +prompt('Nhập vào tuổi cha');
+    let nam = 0;
+    while (cha < con) {
+        alert('Yêu cầu nhập lại');
+        con = +prompt('Nhập vào tuổi con');
+        cha = +prompt('Nhập vào tuổi cha');
+    }
+    while (cha > con * 2) {
+        cha = cha + 1;
+        con = con + 1;
+        nam = nam + 1;
+    }
+    document.write('Tuổi cha gấp đôi tuổi con sau ' + nam + ' năm');
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = prompt('Nhập vào các phần tử mảng');
+    array = array.split('')
+    let count1 = 0;
+    let count2 = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            count1++;
+        } else {
+            count2++;
+        }
+    }
+    if (count1 === count2) {
+        alert('OK');
+    } else {
+        alert('NO');
+    }
+</script>
+</body>
+</html>
