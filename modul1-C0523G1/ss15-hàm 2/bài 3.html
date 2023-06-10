@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = +prompt('Nhập vào số');
+    let temp = 0;
+
+    function findMaxNumber(n) {
+        if (n > 99 && n < 1000 || n > 9999) {
+            alert(-1);
+        } else {
+            temp = n % 1000;
+            alert(temp);
+        }
+    }
+
+    findMaxNumber(number);
+
+</script>
+</body>
+</html>

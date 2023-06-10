@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="napTien(listTaiKhoan)">Nạp tiền</button>
+<button onclick="rutTien(listTaiKhoan)">Rút tiền</button>
+<br><br>
+<div id="result"></div>
+<script>
+    class NganHang {
+        constructor(stk,tenTk,soTien) {
+            this.stk = stk;
+            this.tenTk = tenTk;
+            this.soTien = soTien;
+        }
+        setstk(stk){
+            this.stk = stk;
+        }
+        getstk(){
+            return this.stk;
+        }
+        settienTk(tienTk){
+            this.tenTk = tienTk;
+        }
+        gettienTk(){
+            return this.tenTk;
+        }
+        setsoTien(soTien){
+            this.soTien = soTien;
+        }
+        getsoTien(){
+            return this.soTien;
+        }
+        toStringNganHang(){
+            return `số tài khoản ${this.stk} có tên ${this.tenTk} có ${this.soTien} trong tài khoản`
+        }
+    }
+
+    let taiKhoan1 = new NganHang(1, 'Nguyễn Văn A', 10000);
+    let taiKhoan2 = new NganHang(2, 'Nguyễn Văn C', 17000);
+    let listTaiKhoan = [];
+    listTaiKhoan.push(taiKhoan1,taiKhoan2);
+    disPlayNganHang(listTaiKhoan)
+
+    function disPlayNganHang(checkTien) {
+        let table = `<table border="1" cellpadding="15" style="border-collapse: collapse">`
+        table += `<tr>
+                  <th>Số Tài Khoản</th>
+                  <th>Tên tài khoản</th>
+                  <th>Số tiền trong tài khoản</th>
+                  </tr>`
+        for (let i = 0; i < checkTien.length ; i++) {
+            table += `<tr>
+                      <td>${checkTien[i].stk}</td>
+                      <td>${checkTien[i].tenTk}</td>
+                      <td>${checkTien[i].soTien}</td>
+                      </tr>`
+        }
+        table += `</table>`
+        document.getElementById("result").innerHTML = table;
+    }
+
+    function napTien(tongTk) {
+        let nap = +prompt('Nhập số tài khoản bạn muốn nạp');
+        let tien;
+        for (let i = 0; i < tongTk.length ; i++) {
+            if (nap === tongTk[i].stk){
+                tien = +prompt('Nhập số tiền bạn muốn nạp vào tài khoản ' + listTaiKhoan[i].stk);
+                tongTk[i].soTien = tien + tongTk[i].soTien;
+            }
+        }
+        disPlayNganHang(tongTk);
+    }
+
+    function rutTien(tienTk) {
+        let rut = +prompt('Nhập số tài khoản bạn muốn rút tiền');
+        let tienRut;
+        let flag = false;
+        for (let i = 0; i < tienTk.length  ; i++) {
+            if (rut === tienTk[i].stk){
+                tienRut = +prompt('Nhập số tiền bạn muốn rút từ tài khoản ' + listTaiKhoan[i].stk)
+                if (tienTk[i].soTien > 0 && tienTk[i].soTien >= tienRut){
+                    confirm('Bạn có chắc muốn rút không');
+                    tienTk[i].soTien = tienTk[i].soTien - tienRut;
+                    flag = true;
+                } else {
+                    alert('Tiền trong tài khoản bé hơn số tiền muốn rút');
+                }
+            }
+        }
+        if (flag === false){
+            alert('Không có số tài khoản này');
+        }
+        disPlayNganHang(tienTk);
+    }
+</script>
+</body>
+</html>

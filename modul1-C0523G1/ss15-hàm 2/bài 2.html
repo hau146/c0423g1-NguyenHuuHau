@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt('Nhập vào cạnh thứ nhất');
+    let b = +prompt('Nhập vào cạnh thứ hai');
+    let c = +prompt('Nhập vào cạnh thứ ba');
+
+    function checkTriangle(x, y, z) {
+        if ((x * x) + (y * y) === z * z) {
+            alert('Là 3 cạnh của 1 tam giác vuông');
+        } else if ((a + b) > c && (a + c) > b && (b + c) > a) {
+            alert('Chỉ là 3 cạnh của một tam giác');
+        } else {
+            alert('Không phải là 3 cạnh của 1 tam giác vuông');
+        }
+    } checkTriangle(a,b,c);
+</script>
+</body>
+</html>

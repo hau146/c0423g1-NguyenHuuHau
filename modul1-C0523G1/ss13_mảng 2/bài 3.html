@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = +prompt('Nhập vào độ dài mảng');
+    let arr = [];
+    let box = [];
+    for (let i = 0; i < array; i++) {
+        arr[i] = +prompt('Nhập vào phần tử thứ ' + (i + 1));
+    }
+    console.log(arr);
+    for (let i = 0; i < arr.length; i++) {
+        if (box.indexOf(arr[i]) === -1) {
+            box.push(arr[i]);
+        }
+    }
+    for (let i = 0; i < arr.length; i++) {
+        if (box[i] !== arr[i]) {
+            alert('Yêu cầu nhập lại');
+        }
+    }
+
+
+</script>
+</body>
+</html>

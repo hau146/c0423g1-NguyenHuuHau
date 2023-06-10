@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = +prompt('Nhập vào độ dài mảng');
+    // let number = [5,10,15,20,25];
+    let box = [];
+    let k = 0;
+    for (let i = 0; i < number; i++) {
+        box[i] = +prompt('Nhập vào phần tử thứ ' + (i + 1));
+    }
+    console.log(box);
+
+    function checkArray(array) {
+        let flag = true;
+        k = array[1] - array[0];
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] + k !== array[i + 1]) { // 10 = 10
+                flag = false;
+                break;
+            }
+        }
+        if (flag === true) {
+            alert('OK');
+        } else {
+            alert('NO');
+        }
+    }
+
+    checkArray(box);
+
+
+</script>
+</body>
+</html>

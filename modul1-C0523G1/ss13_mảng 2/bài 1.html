@@ -13,12 +13,12 @@
     for (let i = 0; i < array ; i++) {
         box[i] = +prompt('Nhập vào phần tử thứ ' + (i+1))
     }
-    for (let i = 0; i < box.length ; i+=2) {
+    debugger
+    for (let i = 0; i < box.length; i+=2) {
         if (box[i] % 2 === 0){
             result.push(box[i])
-            sum += result[i]
+            sum +=box[i];
         }
-
     }
     console.log(box)
     console.log(result)
