@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = prompt('Nhập vào để chuẩn hóa xâu kí tự');
+    console.log('Trước khi chuẩn hóa là: ' + name);
+    name = name.split(' ');
+    let box = "";
+
+
+    function checkName(name2) {
+        for (let i = 0; i < name2.length; i++) {
+            if (name2[i] === "") {
+                name2.splice(i, 1);
+                i--;
+            } else {
+                name2[i] = name2[i].toLowerCase();
+                box = name2[i];
+                box = box.split('');
+                box[0] = box[0].toUpperCase();
+                box = box.join('');
+                name2[i] = box;
+            }
+        }
+        return 'Sau khi chuẩn hóa là: ' + name2.join(' ');
+    }
+
+    console.log(checkName(name));
+
+    function checkMax(name2) {
+        max = name2[0];
+        for (let i = 1; i < name2.length; i++) {
+            if (max < name2[i]) {
+                max = name2[i];
+            }
+        }
+        name2 = max;
+        return 'Từ dài nhất là: ' + name2;
+    }
+
+    console.log(checkMax(name));
+</script>
+</body>
+</html>

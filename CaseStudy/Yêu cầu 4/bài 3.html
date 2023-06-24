@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let s1 = "aabcc";
+    let s2 = "adcaa";
+    s1 = s1.split('');
+    let s3 = s2.split('');
+    let result = [];
+
+    for (let i = 0; i < s1.length; i++) {
+        for (let j = 0; j < s3.length; j++) {
+            if (s3[j].includes(s1[i])) {
+                result.push(s1[i]);
+                s3.splice(j, 1);
+                break;
+            }
+        }
+    }
+    console.log(result.length);
+</script>
+</body>
+</html>

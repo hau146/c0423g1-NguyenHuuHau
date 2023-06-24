@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let listMenu;
+    let sum = 0;
+    let water = ['Cafe (12.000)', 'Cam vắt( 15.000)', 'Nước ép cà rốt (12.000)', 'Nước ép cà chua (12.000)', 'Nước lọc (10.000)', 'Nước dừa (13.000)'];
+
+
+    do {
+        listMenu = +prompt('Menu nước: \n 1.Cafe \n 2.Cam vắt \n 3.Nước ép cà rốt \n 4.Nước ép cà chua \n 5. Nước lọc \n 6.Nước dừa \n 7.Exit Menu');
+        let quantity = 0;
+
+        switch (listMenu) {
+            case 1:
+                quantity = +prompt(`${water[0]} với số lượng ?`);
+                sum += quantity * 12.000;
+                break;
+            case 2:
+                quantity = +prompt(`${water[1]} với số lượng ?`);
+                sum += quantity * 15.000;
+                break;
+            case 3:
+                quantity = +prompt(`${water[2]} với số lượng ?`);
+                sum += quantity * 12.000;
+                break;
+            case 4:
+                quantity = +prompt(`${water[3]} với số lượng ?`);
+                sum += quantity * 12.000;
+                break;
+            case 5:
+                quantity = +prompt(`${water[4]} với số lượng ?`);
+                sum += quantity * 10.000;
+                break;
+            case 6:
+                quantity = +prompt(`${water[5]} với số lượng ?`);
+                sum += quantity * 13.000;
+                break;
+        }
+    } while (listMenu < 7);
+
+    alert('Tổng bill nước của bạn là: ' + sum + '.000 VND');
+
+</script>
+</body>
+</html>

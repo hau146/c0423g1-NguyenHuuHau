@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let luong;
+
+    do {
+        luong = +prompt('Nhập vào lương của bạn');
+
+        if (isNaN(luong) || luong <= 0) {
+            alert('Yêu cầu nhập lại, hãy nhập vào số nguyên dương > 0');
+        } else {
+            if (luong >= 15000000) {
+                alert('thuế của bạn là: ' + (luong * 0.2) + ' VND');
+                alert('lương ròng của bạn là: ' + (luong - (luong * 0.2)) + ' VND');
+            } else if (luong > 7000000 && luong < 15000000) {
+                alert('thuế của bạn là: ' + (luong * 0.1) + ' VND');
+                alert('lương ròng của bạn là: ' + (luong - (luong * 0.1)) + ' VND');
+            } else {
+                alert('thuế của bạn là: ' + (luong * 0.05) + ' VND');
+                alert('lương ròng của bạn là: ' + (luong - (luong * 0.05)) + ' VND');
+            }
+        }
+
+    } while (isNaN(luong) || luong <= 0);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let check;
+    let vowel;
+    let flag = false;
+
+
+    do {
+
+        check = prompt('Nhập 1 ký tự để kiểm tra');
+        check = check.toLowerCase();
+        vowel = ['o', 'u', 'i', 'a', 'e'];
+        flag = false;
+
+
+        if (!isNaN(check)) {
+            alert('Bạn vừa nhập số yêu cầu nhập vào kí tự chữ, hãy kiểm tra lại');
+        } else {
+            for (let i = 0; i < vowel.length; i++) {
+                if (check === vowel[i]) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag === false) {
+                alert('Đây không phải là kí tự nguyên âm');
+            } else {
+                alert('Đây là kí tự nguyên âm');
+            }
+        }
+
+    } while (true);
+
+
+</script>
+</body>
+</html>
