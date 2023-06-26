@@ -7,11 +7,17 @@
 <style>
     .table {
         border-collapse: collapse;
-
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 0 auto;
+        font-size: 23px;
     }
 
     .table-hover tr:hover {
         background: #333333;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -wedkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     .table-dark {
@@ -19,20 +25,44 @@
         color: whitesmoke;
     }
 
-    .table-striped tbody tr:nth-child(od) {
-        background: #333333;
+    .table-striped tbody tr:nth-child(even) {
+        background: #424140;
     }
 
-    .btn-outline {
-        background: red;
+    .button {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: #333333;
+        width: 160px;
+        padding: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .button:hover, .button:focus, .button:active{
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -wedkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 </style>
 <body>
-<button onclick="add()" class="btn btn-outline">Thêm Mới Học viên</button>
-<button onclick="edit(listHocVien)">Sửa thông tin học viên</button>
-<button onclick="dele(listHocVien)">Xóa học viên</button>
+<button onclick="add()" class="button">Thêm Mới Học viên</button>
+<button onclick="edit(listHocVien)" class="button" style="width: 200px">Sửa thông tin học viên</button>
+<button onclick="dele(listHocVien)" class="button">Xóa học viên</button>
 <br><br>
-
+<h1 style="text-align: center">Bảng Hệ Thống Quản Lý Danh Sách Học Viên CodeGym</h1>
+<hr>
+<br><br>
 <div id="listStudent"></div>
 <script>
     class HocVien {
@@ -54,7 +84,7 @@
     displayHocVien(listHocVien);
 
     function displayHocVien(list) {
-        table = `<table cellpadding="40" class="table table-dark table-hover table-striped">`
+        table = `<table cellpadding="45" class="table table-dark table-hover table-striped">`
         table += `<tr style="border-bottom: 1px solid">
                   <th>Mã học viên</th>
                   <th>Tên</th>
