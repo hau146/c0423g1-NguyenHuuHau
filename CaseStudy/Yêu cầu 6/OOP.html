@@ -13,9 +13,9 @@
         font-size: 23px;
     }
 
-    .table-hover tr:hover {
+    .table-hover tbody:hover {
         background: #333333;
-        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         -wedkit-transform: scale(1.1);
         transform: scale(1.1);
     }
@@ -25,7 +25,7 @@
         color: whitesmoke;
     }
 
-    .table-striped tbody tr:nth-child(even) {
+    .table-striped  tbody:nth-child(even) {
         background: #424140;
     }
 
@@ -39,7 +39,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: #ffffff;
-        border-radius: 5px;
+        border-radius: 6px;
         cursor: pointer;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         -webkit-transition-duration: 0.3s;
@@ -49,20 +49,23 @@
         text-align: center;
         margin: 0 auto;
     }
-    .button:hover, .button:focus, .button:active{
-        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+    .button:hover, .button:focus, .button:active {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         -wedkit-transform: scale(1.1);
         transform: scale(1.1);
     }
 </style>
 <body>
-<button onclick="add()" class="button">Thêm Mới Học viên</button>
-<button onclick="edit(listHocVien)" class="button" style="width: 200px">Sửa thông tin học viên</button>
-<button onclick="dele(listHocVien)" class="button">Xóa học viên</button>
-<br><br>
 <h1 style="text-align: center">Bảng Hệ Thống Quản Lý Danh Sách Học Viên CodeGym</h1>
 <hr>
 <br><br>
+<button onclick="add()" class="button">Thêm Mới Học viên</button>
+<button onclick="edit(listHocVien)" class="button" style="width: 200px">Sửa thông tin học viên</button>
+<button onclick="dele(listHocVien)" class="button">Xóa học viên</button>
+<button onclick="restore()" class="button" style="width: 270px">Khôi phục dữ liệu vừa xóa</button>
+<br><br>
+
 <div id="listStudent"></div>
 <script>
     class HocVien {
@@ -76,7 +79,7 @@
         }
     }
 
-    let hocVien1 = new HocVien('HV-0001', 'Nguyễn Văn A', 'C1022G1', 'nguyenvana@gmail.com', '01/01/2004', '1');
+    let hocVien1 = new HocVien('HV-0001', 'Nguyễn Hữu Hậu', 'C0523G1', 'hau@gmail.com', '24/09/2002', '1');
     let hocVien2 = new HocVien('HV-0002', 'Nguyễn Văn B', 'C1122G1', 'nguyenvanb@gmail.com', '02/02/2004', '3');
     let hocVien3 = new HocVien('HV-0003', 'Nguyễn Thị C', 'C1222G1', 'nguyenthic@gmail.com', '03/03/2004', '5');
     let listHocVien = [];
@@ -85,23 +88,25 @@
 
     function displayHocVien(list) {
         table = `<table cellpadding="45" class="table table-dark table-hover table-striped">`
-        table += `<tr style="border-bottom: 1px solid">
+        table += `<thead>
+                  <tr style="border-bottom: 1px solid">
                   <th>Mã học viên</th>
                   <th>Tên</th>
                   <th>Lớp</th>
                   <th>Email</th>
                   <th>Ngày Sinh</th>
                   <th>Modul đang học</th>
-                  </tr>`
+                  </tr></thead>`
         for (let i = 0; i < list.length; i++) {
-            table += `<tr style="text-align: center; border-bottom: 1px solid">
+            table += `<tbody>
+                      <tr style="text-align: center; border-bottom: 1px solid">
                       <td>${list[i].ma}</td>
                       <td>${list[i].ten}</td>
                       <td>${list[i].lop}</td>
                       <td>${list[i].email}</td>
                       <td>${list[i].ngaySinh}</td>
                       <td>${list[i].module}</td>
-                      </tr>`
+                      </tr></tbody>`
 
         }
         table += `</table>`
@@ -170,15 +175,24 @@
         displayHocVien(listHocVien);
     }
 
-    function dele(erase) {
+    let trash = [];
 
+    function dele(erase) {
         let box;
         let flag = false;
-        let dele = +prompt('Nhập mã học viên bạn muốn xóa');
+        let idRegex = /^[A-Z]{2}-\d{4}$/;
+        let dele;
+        do {
+            dele = prompt('Nhập mã học viên bạn muốn xóa');
+            if (!idRegex.test(dele)) {
+                alert("Định dạng mã ID không đúng!");
+            }
+        } while (!idRegex.test(dele));
         for (let i = 0; i < erase.length; i++) {
             if (dele === erase[i].ma) {
                 box = confirm('Bạn có chắc chắn muốn xóa học viên này không ?');
                 if (box === true) {
+                    trash.push(erase[i])
                     erase.splice(i, 1);
                     break;
                 }
@@ -189,6 +203,15 @@
             alert('Không có mã học viên này');
         }
         displayHocVien(erase);
+    }
+
+    console.log(trash)
+
+
+    function restore() {
+        listHocVien.unshift(trash[trash.length - 1]);
+        trash.pop();
+        displayHocVien(listHocVien);
     }
 
 
@@ -267,6 +290,8 @@
         }
         displayHocVien(fix);
     }
+
+
 </script>
 </body>
 </html>
