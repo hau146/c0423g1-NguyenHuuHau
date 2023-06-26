@@ -21,13 +21,13 @@
     function total(temp) {
         let sum = 0;
         for (let i = 0; i < temp.length; i++) {
-            for (let j = 0; j < temp.length; j++) {
+            for (let j = 0; j < temp[i].length; j++) {
                 if (temp[i][j] % 2 === 0) {
                     sum += temp[i][j];
                 }
             }
         }
-        return 'Tổng các số chẵn là ' + sum;
+        return 'Tổng các số chẵn là: ' + sum;
     }
 
 </script>

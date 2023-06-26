@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let row = +prompt('Nhập vào hàng');
+    let col = +prompt('Nhập vào cột');
+    let arr = [];
+
+    for (let i = 0; i < row; i++) {
+        arr[i] = [];
+        for (let j = 0; j < col; j++) {
+            arr[i][j] = +prompt(`Nhập vào phần tử [${i}][${j}]`);
+        }
+    }
+    console.log(checkMax(arr));
+    console.log(checkMin(arr));
+
+    function checkMax(a) {
+        let max = a[0][0]
+        for (let i = 0; i < a.length; i++) {
+            for (let j = 0; j < a[i].length; j++) {
+                if (max < a[i][j]) {
+                    max = a[i][j];
+                }
+            }
+        }
+        return 'giá trị lớn nhất là: ' + max;
+    }
+
+    function checkMin(a) {
+        let min = a[0][0]
+        for (let i = 0; i < a.length; i++) {
+            for (let j = 0; j < a[i].length; j++) {
+                if (min > a[i][j]) {
+                    min = a[i][j];
+                }
+            }
+        }
+        return 'giá trị bé nhất là: ' + min;
+    }
+</script>
+</body>
+</html>

@@ -10,8 +10,30 @@
     let col = +prompt('Nhập vào cột');
     let arr = [];
 
-    for (let i = 0; i < row ; i++) {
-        arr[i] = []
+    for (let i = 0; i < row; i++) {
+        arr[i] = [];
+        for (let j = 0; j < col; j++) {
+            arr[i][j] = +prompt(`Nhập vào phần tử [${i}][${j}]`);
+        }
+    }
+
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            console.log(checkSnt(arr[i][j]));
+        }
+    }
+
+    function checkSnt(snt) {
+        let count = 0;
+        for (let i = 1; i <= snt; i++) {
+            if (snt % i === 0) {
+                count++;
+            }
+        }
+        if (count === 2) {
+            return 'số nguyên tố là: ' + snt;
+        }
     }
 </script>
 </body>

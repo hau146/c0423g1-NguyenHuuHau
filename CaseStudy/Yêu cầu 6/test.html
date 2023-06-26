@@ -1,0 +1,351 @@
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>study manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+    <br>
+    <!-- Button trigger modal -->
+    <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Thêm Học Viên Mới
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thêm Học Viên Mới</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <td>Họ và Tên:   </td>
+                            <td>  <input type="text" placeholder="dưới 50 ký tự" id="newName"></td>
+                        </tr>
+                        <tr>
+                            <td>Lớp:</td>
+                            <td>  <input type="text" placeholder="room" id="newRoom"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>  <input type="email" placeholder="email" id="newEmail"></td>
+                        </tr>
+                        <tr>
+                            <td>Ngày Sinh:</td>
+                            <td>  <input type="text" placeholder="dd/mm/yyyy" id="newDate"></td>
+                        </tr>
+                        <tr>
+                            <td>Module:</td>
+                            <td>  <input type="number" placeholder="từ 1 đến 6" id="newModule"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer" id="buttonNewStudent">
+                    <button type="button" class="btn btn-primary" onclick="checkInput()">Kiểm Tra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" onclick="editStudent()" data-bs-toggle="modal" data-bs-target="#exampleModalEdit">
+        Sửa Thông Tin Học Viên
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelEdit">Sửa Thông Tin Học Viên</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="editStudent">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--    <div id="editStudent"></div>-->
+
+    <button onclick="removeStudent()">Xoá Học Viên</button>
+    <br>
+</div>
+<hr>
+<div id="displayManeger">
+
+</div>
+<div>
+
+</div>
+
+<script>
+
+    let countStudent = 0;
+    class Student {
+        constructor(name, room, email, date, module) {
+            this.id = "";
+            this.name = name;
+            this.room = room;
+            this.email = email;
+            this.date = date;
+            this.module = module;
+        }
+        getId() {
+            if (this.id < 10 && this.id >= 0) {
+                this.id = "HV_000" + countStudent;
+            } else if (this.id < 100) {
+                this.id = "HV_00" + countStudent;
+            } else if (this.id < 1000) {
+                this.id = "HV_0" + countStudent;
+            } if (this.id < 10000) {
+                this.id = "HV_" + countStudent;
+            }
+        }
+    }
+    let hai = new Student("Bui Huu Hai", "C0423G1", "buihuuhai318@gmail.com", "31/08/1996", 1);
+    hai.getId();
+    countStudent++;
+    let thien = new Student("Thien", "C0423G1", "thien@gmail.com", "01/01/2000", 1);
+    thien.getId();
+    countStudent++;
+    let sang = new Student("Sang", "C0423G1", "sang@gmail.com", "01/01/2000", 1);
+    sang.getId();
+    countStudent++;
+    let minh = new Student("Minh", "C0423G1", "minh@gmail.com", "01/01/2000", 1);
+    minh.getId();
+    countStudent++;
+    let arrIdStudent = [];
+    let arrListStudent = [];
+    arrIdStudent.push(hai.id, thien.id, sang.id, minh.id);
+    arrListStudent.push(hai, thien, sang, minh);
+
+    displayManger();
+
+    function displayManger() {
+        let text = `
+            <table class="table">
+                <tr>
+                    <th scope="col">Mã Học Viên</th>
+                    <th scope="col">Họ Và Tên</th>
+                    <th scope="col">Lớp</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Ngày Sinh</th>
+                </tr>
+        `;
+        for (let i = 0; i < arrListStudent.length; i++) {
+            text += `
+                 <tr>
+                    <th scope="row">${arrListStudent[i].id}</th>
+                    <td>${arrListStudent[i].name}</td>
+                    <td>${arrListStudent[i].room}</td>
+                    <td>${arrListStudent[i].email}</td>
+                    <td>${arrListStudent[i].date}</td>
+                </tr>
+            `;
+        }
+        text += `</table>`;
+        document.getElementById("displayManeger").innerHTML = text;
+    }
+
+    function addNewStudent() {
+        let name = document.getElementById("newName").value;
+        let room = document.getElementById("newRoom").value;
+        let email = document.getElementById("newEmail").value;
+        let date = document.getElementById("newDate").value;
+        let module = document.getElementById("newModule").value;
+        let newStudent = new Student(name, room, email, date, module);
+        newStudent.getId();
+        arrListStudent.push(newStudent);
+        arrIdStudent.push(newStudent.id);
+        countStudent++;
+        displayManger();
+        document.getElementById("newName").value = "";
+        document.getElementById("newRoom").value = "";
+        document.getElementById("newEmail").value = "";
+        document.getElementById("newDate").value = "";
+        document.getElementById("newModule").value = "";
+        document.getElementById("buttonNewStudent").innerHTML = `
+            <button type="button" class="btn btn-primary" onclick="checkInput()">Kiểm Tra</button>
+        `;
+    }
+    function removeStudent() {
+        let index = prompt("Nhập Mã Số Học Viên: ");
+        index = arrIdStudent.indexOf(index);
+        if (index === -1) {
+            alert("Không Tìm Thấy Học Viên!!!");
+        } else {
+            let confirmStudent = confirm(`Bạn Muốn Xoá Thông Tin Học Viên: ${arrListStudent[index].name}`);
+            if (confirmStudent) {
+                arrListStudent.splice(index, 1);
+                arrIdStudent.splice(index, 1);
+            }
+        }
+        displayManger();
+    }
+    function editStudent() {
+        let index = prompt("Nhập Mã Số Học Viên: ");
+        let i = arrIdStudent.indexOf(index);
+        if (i === -1) {
+            alert("Không Tìm Thấy Học Viên!!!");
+        } else {
+            let confirmStudent = confirm(`Bạn Muốn Sữa Thông Tin Học Viên: ${arrListStudent[i].name}`);
+            if (confirmStudent) {
+
+                document.getElementById("editStudent").innerHTML = `
+                    <table>
+                        <tr>
+                            <td>Họ và Tên:</td>
+                            <td><input type="text" placeholder="name" id="editName" value="${arrListStudent[i].name}"></td>
+                        </tr>
+                        <tr>
+                            <td>Lớp:</td>
+                            <td><input type="text" placeholder="room" id="editRoom" value="${arrListStudent[i].room}"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" placeholder="email" id="editEmail" value="${arrListStudent[i].email}"></td>
+                        </tr>
+                        <tr>
+                            <td>Ngày Sinh:</td>
+                            <td><input type="text" placeholder="date" id="editDate" value="${arrListStudent[i].date}"></td>
+                        </tr>
+                        <tr>
+                            <td>Module (1 - 6):</td>
+                            <td><input type="number" placeholder="date" id="editModule" value="${arrListStudent[i].module}"></td>
+                        </tr>
+                    </table>
+                    <div class="modal-footer" id="buttonSave">
+                        <button type="button" class="btn btn-primary" onclick="checkEdit(${i})">Kiểm Tra</button>
+                    </div>
+                `;
+                document.getElementById("countInput").value.length;
+            }
+        }
+    }
+    function save(i) {
+        let name = document.getElementById("editName").value;
+        let room = document.getElementById("editRoom").value;
+        let email = document.getElementById("editEmail").value;
+        let date = document.getElementById("editDate").value;
+        let module = document.getElementById("editModule").value;
+        arrListStudent[i].name = name;
+        arrListStudent[i].room = room;
+        arrListStudent[i].email = email;
+        arrListStudent[i].date = date;
+        arrListStudent[i].module = module;
+        displayManger();
+    }
+    function checkInput() {
+        let name = document.getElementById("newName").value;
+        let date = document.getElementById("newDate").value;
+        let module = document.getElementById("newModule").value;
+        let nameFlag = false;
+        let moduleFlag = false;
+        let dateFlag = false;
+        let arrName = name.split("");
+        if (arrName.length > 50) {
+            alert("Tên không được dài quá 50 ký tự !!!");
+            document.getElementById("newName").value = "";
+        } else if (name === "") {
+            alert("Tên Không Được Để Trống !!!");
+        } else nameFlag = true;
+        if (!valDate(date)) {
+            alert("Ngày sinh không đúng định dạng !!!");
+        } else dateFlag = true;
+        if (module <= 6 && module >= 1) {
+            moduleFlag = true;
+        } else alert("Module chỉ từ 1 đến 6");
+
+        if (moduleFlag && nameFlag && dateFlag) {
+            document.getElementById("buttonNewStudent").innerHTML = `
+                <button type="button" class="btn btn-success" onclick="addNewStudent()" data-bs-dismiss="modal">Thêm Mới</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            `;
+        }
+    }
+
+    function checkEdit(i) {
+        let name = document.getElementById("editName").value;
+        let date = document.getElementById("editDate").value;
+        let module = document.getElementById("editModule").value;
+        module = parseInt(module);
+        debugger
+        let nameFlag = false;
+        let moduleFlag = false;
+        let dateFlag = false;
+        let arrName = name.split("");
+        if (arrName.length > 50) {
+            alert("Tên không được dài quá 50 ký tự !!!");
+            document.getElementById("editName").value = "";
+        } else if (name === "") {
+            alert("Tên Không Được Để Trống !!!");
+        } else nameFlag = true;
+        if (!valDate(date)) {
+            alert("Ngày sinh không đúng định dạng !!!");
+        } else dateFlag = true;
+        if (module <= 6 && module >= 1) {
+            moduleFlag = true;
+        } else alert("Module chỉ từ 1 đến 6");
+
+        if (moduleFlag && nameFlag && dateFlag) {
+            document.getElementById("buttonSave").innerHTML = `
+                    <button type="button" class="btn btn-success" onclick="save(${i})" data-bs-dismiss="modal">Lưu</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                `;
+        }
+    }
+
+    function valDate(date) {
+        let dateformat = /^(0?[1-9]|[1-2][0-9]|3[01])\/(0?[1-9]|1[0-2])/;
+
+        if (date.match(dateformat)) {
+            let operator = date.split('/');
+
+            let datePart = [];
+            if (operator.length > 1) {
+                datePart = date.split('/');
+            }
+            let day = parseInt(datePart[0]);
+            let month = parseInt(datePart[1]);
+            let year = parseInt(datePart[2]);
+
+            if (year < 1900 || year > 2023) {
+                return false;
+            }
+            if (month < 1 || month > 12) {
+                return false;
+            }
+
+            let ListOfDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+            if (month === 1 || month > 2) {
+                if (day > ListOfDays[month - 1]) {
+                    return false;
+                }
+            } else if (month === 2) {
+                let leapYear = false;
+                if ((!(year % 4) && year % 100) || !(year % 400)) leapYear = true;
+                if ((leapYear === false) && (day >= 29)) {
+                    return false;
+                }
+                else if ((leapYear === true) && (day > 29)) {
+                    return false;
+                }
+            }
+        } else {
+            return false;
+        }
+        return true;
+    }
+
+
+</script>
+</body>
+</html>

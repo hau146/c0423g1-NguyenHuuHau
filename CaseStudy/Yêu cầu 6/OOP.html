@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .table {
+        border-collapse: collapse;
+
+    }
+
+    .table-hover tr:hover {
+        background: #333333;
+    }
+
+    .table-dark {
+        background: black;
+        color: whitesmoke;
+    }
+
+    .table-striped tbody tr:nth-child(od) {
+        background: #333333;
+    }
+
+    .btn-outline {
+        background: red;
+    }
+</style>
+<body>
+<button onclick="add()" class="btn btn-outline">Thêm Mới Học viên</button>
+<button onclick="edit(listHocVien)">Sửa thông tin học viên</button>
+<button onclick="dele(listHocVien)">Xóa học viên</button>
+<br><br>
+
+<div id="listStudent"></div>
+<script>
+    class HocVien {
+        constructor(ma, ten, lop, email, ngaySinh, module) {
+            this.ma = ma;
+            this.ten = ten;
+            this.lop = lop;
+            this.email = email;
+            this.ngaySinh = ngaySinh;
+            this.module = module;
+        }
+    }
+
+    let hocVien1 = new HocVien('HV-0001', 'Nguyễn Văn A', 'C1022G1', 'nguyenvana@gmail.com', '01/01/2004', '1');
+    let hocVien2 = new HocVien('HV-0002', 'Nguyễn Văn B', 'C1122G1', 'nguyenvanb@gmail.com', '02/02/2004', '3');
+    let hocVien3 = new HocVien('HV-0003', 'Nguyễn Thị C', 'C1222G1', 'nguyenthic@gmail.com', '03/03/2004', '5');
+    let listHocVien = [];
+    listHocVien.push(hocVien1, hocVien2, hocVien3);
+    displayHocVien(listHocVien);
+
+    function displayHocVien(list) {
+        table = `<table cellpadding="40" class="table table-dark table-hover table-striped">`
+        table += `<tr style="border-bottom: 1px solid">
+                  <th>Mã học viên</th>
+                  <th>Tên</th>
+                  <th>Lớp</th>
+                  <th>Email</th>
+                  <th>Ngày Sinh</th>
+                  <th>Modul đang học</th>
+                  </tr>`
+        for (let i = 0; i < list.length; i++) {
+            table += `<tr style="text-align: center; border-bottom: 1px solid">
+                      <td>${list[i].ma}</td>
+                      <td>${list[i].ten}</td>
+                      <td>${list[i].lop}</td>
+                      <td>${list[i].email}</td>
+                      <td>${list[i].ngaySinh}</td>
+                      <td>${list[i].module}</td>
+                      </tr>`
+
+        }
+        table += `</table>`
+        document.getElementById('listStudent').innerHTML = table;
+    }
+
+    displayHocVien(listHocVien);
+
+    function add() {
+        let addMa;
+        let idRegex = /^[A-Z]{2}-\d{4}$/;
+        do {
+            addMa = prompt('Nhập mã ID học viên mới (HV-XXXX)');
+            if (!idRegex.test(addMa)) {
+                alert("Định dạng mã ID không đúng!");
+            }
+        } while (!idRegex.test(addMa));
+
+        let addTen;
+        do {
+            addTen = prompt('Nhập tên học viên mới (< 50 kí tự)');
+            if (addTen.length > 50) {
+                alert("Bạn đã nhập quá giới hạn 50 kí tự!");
+            } else if (!addTen.trim()) {
+                alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+            }
+        } while (addTen.length > 50 || !addTen.trim());
+
+        let addLop
+        do {
+            addLop = prompt('Nhập lớp học viên mới');
+            if (!addLop.trim()) {
+                alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+            }
+        } while (!addLop.trim())
+
+        let addEmail;
+        let regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        do {
+            addEmail = prompt('Nhập email học viên mới');
+            if (!regex.test(addEmail)) {
+                alert("Vui lòng nhập địa chỉ email hợp lệ! Phải ở dạng @gmail.com");
+            }
+        } while (!regex.test(addEmail));
+
+        let addNgaySinh;
+        let dateRegex = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+        do {
+            addNgaySinh = prompt('Nhập ngày sinh học viên mới');
+            if (!dateRegex.test(addNgaySinh)) {
+                alert("Định dạng ngày tháng không đúng! Phải ở dạng dd/mm/yyyy");
+            }
+        } while (!dateRegex.test(addNgaySinh));
+
+        let addModule;
+        do {
+            addModule = +prompt('Nhập module của học viên mới');
+            if (addModule <= 0 || addModule > 6) {
+                alert('Module nhập vào phải > 0 & < 7, vui lòng nhập lại');
+            }
+        } while (addModule <= 0 || addModule > 6);
+
+        let hocVien = new HocVien(addMa, addTen, addLop, addEmail, addNgaySinh, addModule);
+        listHocVien.push(hocVien);
+
+        displayHocVien(listHocVien);
+    }
+
+    function dele(erase) {
+
+        let box;
+        let flag = false;
+        let dele = +prompt('Nhập mã học viên bạn muốn xóa');
+        for (let i = 0; i < erase.length; i++) {
+            if (dele === erase[i].ma) {
+                box = confirm('Bạn có chắc chắn muốn xóa học viên này không ?');
+                if (box === true) {
+                    erase.splice(i, 1);
+                    break;
+                }
+            }
+            flag = false;
+        }
+        if (flag === true) {
+            alert('Không có mã học viên này');
+        }
+        displayHocVien(erase);
+    }
+
+
+    function edit(fix) {
+        let flag = false;
+
+        let editMa = +prompt('Nhập vào mã học viên muốn sửa thông tin');
+        for (let i = 0; i < fix.length; i++) {
+            if (editMa === fix[i].ma) {
+                let ten;
+                let lop;
+                let email;
+                let regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                let ngaySinh;
+                let dateRegex = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+                let module;
+                do {
+                    ten = prompt(`${fix[i].ten} sửa thành tên: `);
+                    if (ten !== "") {
+                        fix[i].ten = ten;
+                    } else if (!ten.trim()) {
+                        alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+                    } else if (ten.length > 50) {
+                        alert("Bạn đã nhập quá giới hạn 50 kí tự!")
+                    }
+                } while (!ten.trim() || ten.length > 50);
+
+                do {
+                    lop = prompt(`${fix[i].lop} sửa thành lớp: `);
+                    if (lop !== "") {
+                        fix[i].lop = lop;
+                    } else if (!lop.trim()) {
+                        alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+                    }
+                } while (!lop.trim());
+
+                do {
+                    email = prompt(`${fix[i].email} sửa thành email: `);
+                    if (email !== "") {
+                        fix[i].email = email;
+                    } else if (!email.trim()) {
+                        alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+                    } else if (!regex.test(email)) {
+                        alert("Vui lòng nhập địa chỉ email hợp lệ! Phải ở dạng @gmail.com");
+                    }
+                } while (!email.trim() || !regex.test(email));
+
+                do {
+                    ngaySinh = +prompt(`${fix[i].ngaySinh} sửa thành ngày sinh: `);
+                    if (ngaySinh !== "") {
+                        fix[i].ngaySinh = ngaySinh;
+                    } else if (!ngaySinh.trim()) {
+                        alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+                    } else if (!dateRegex.test(ngaySinh)) {
+                        alert("Định dạng ngày tháng không đúng! Phải ở dạng dd/mm/yyyy");
+                    }
+                } while (!ngaySinh.trim() || !dateRegex.test(ngaySinh));
+
+                do {
+                    module = +prompt(`Module ${fix[i].module} sửa thành module: `);
+                    if (module !== "") {
+                        fix[i].module = module;
+                    } else if (!module.trim()) {
+                        alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
+                    } else if (module <= 0 || module > 6) {
+                        alert('Module nhập vào phải > 0 & < 7, vui lòng nhập lại');
+                    }
+                } while (!module.trim() || module <= 0 || module > 6);
+                flag = true;
+                break;
+            }
+            flag = false;
+        }
+        if (flag === false) {
+            alert('Không có mã học viên này');
+        }
+        displayHocVien(fix);
+    }
+</script>
+</body>
+</html>
