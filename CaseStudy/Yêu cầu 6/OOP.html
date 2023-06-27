@@ -5,6 +5,85 @@
     <title>Title</title>
 </head>
 <style>
+    h1 {
+        margin: 0;
+        padding: 0;
+        color: #111;
+        font-size: 350%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Bad Script', cursive;
+    }
+
+    h1 div {
+        display: table-cell;
+        margin: 0;
+        padding: 0;
+        animation: animate 2s linear infinite;
+
+    }
+
+    h1 div:nth-child(1) {
+        animation-delay: 0s;
+    }
+
+    h1 div:nth-child(2) {
+        animation-delay: 0.5s;
+    }
+
+    h1 div:nth-child(3) {
+        animation-delay: 1s;
+    }
+
+    h1 div:nth-child(4) {
+        animation-delay: 1.5s;
+    }
+
+    h1 div:nth-child(5) {
+        animation-delay: 2s;
+    }
+
+    h1 div:nth-child(6) {
+        animation-delay: 2.5s;
+    }
+
+    h1 div:nth-child(7) {
+        animation-delay: 3s;
+    }
+
+    h1 div:nth-child(8) {
+        animation-delay: 3.5s;
+    }
+
+    h1 div:nth-child(9) {
+        animation-delay: 4s;
+    }
+
+    h1 div:nth-child(10) {
+        animation-delay: 4.5s;
+    }
+
+    @keyframes animate {
+        0%, 100% {
+            color: #fff;
+            filter: blur(2px);
+            text-shadow: 0 0 10px #15f4ee,
+            0 0 20px #15f4ee,
+            0 0 40px #15f4ee,
+            0 0 80px #15f4ee,
+            0 0 120px #15f4ee,
+            0 0 200px #15f4ee,
+            0 0 300px #15f4ee,
+            0 0 400px #15f4ee;
+        }
+        5%, 95% {
+            color: #111;
+            filter: blur(0px);
+            text-shadow: 0 0 10px gray;
+
+        }
+    }
+
     .table {
         border-collapse: collapse;
         border-radius: 8px;
@@ -25,7 +104,7 @@
         color: whitesmoke;
     }
 
-    .table-striped  tbody:nth-child(even) {
+    .table-striped tbody:nth-child(even) {
         background: #424140;
     }
 
@@ -39,7 +118,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: #ffffff;
-        border-radius: 6px;
+        border-radius: 8px;
         cursor: pointer;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         -webkit-transition-duration: 0.3s;
@@ -57,14 +136,27 @@
     }
 </style>
 <body>
-<h1 style="text-align: center">Bảng Hệ Thống Quản Lý Danh Sách Học Viên CodeGym</h1>
+<h1>
+    <div>Bảng</div>
+    <div>Hệ</div>
+    <div>Thống</div>
+    <div>Quản</div>
+    <div>Lý</div>
+    <div>Danh</div>
+    <div>Sách</div>
+    <div>Học</div>
+    <div>Viên</div>
+    <div>CodeGym</div>
+</h1>
 <hr>
 <br><br>
 <button onclick="add()" class="button">Thêm Mới Học viên</button>
 <button onclick="edit(listHocVien)" class="button" style="width: 200px">Sửa thông tin học viên</button>
 <button onclick="dele(listHocVien)" class="button">Xóa học viên</button>
 <button onclick="restore()" class="button" style="width: 270px">Khôi phục dữ liệu vừa xóa</button>
-<br><br>
+<button onclick="arrange(listHocVien,true)" class="button">Sắp Xếp Tăng Dần</button>
+<button onclick="arrange(listHocVien,false)" class="button">Sắp Xếp Giảm Dần</button>
+<br><br><br><br>
 
 <div id="listStudent"></div>
 <script>
@@ -205,8 +297,6 @@
         displayHocVien(erase);
     }
 
-    console.log(trash)
-
 
     function restore() {
         listHocVien.unshift(trash[trash.length - 1]);
@@ -277,7 +367,7 @@
                     } else if (!module.trim()) {
                         alert('Ô nhập bị bỏ trống, vui lòng nhập lại');
                     } else if (module <= 0 || module > 6) {
-                        alert('Module nhập vào phải > 0 & < 7, vui lòng nhập lại');
+                        alert('Module nhập vào phả      i > 0 & < 7, vui lòng nhập lại');
                     }
                 } while (!module.trim() || module <= 0 || module > 6);
                 flag = true;
@@ -291,7 +381,28 @@
         displayHocVien(fix);
     }
 
+    function arrange(list, flag) {
+        let temp;
+        for (let i = 0; i < listHocVien.length; i++) {
+            for (let j = i + 1; j < listHocVien.length; j++) {
+                if (flag === true) {
+                    if (listHocVien[i].ma > listHocVien[j].ma) {
+                        temp = listHocVien[i];
+                        listHocVien[i] = listHocVien[j];
+                        listHocVien[j] = temp
+                    }
+                } else {
+                    if (listHocVien[i].ma < listHocVien[j].ma) {
+                        temp = listHocVien[i];
+                        listHocVien[i] = listHocVien[j];
+                        listHocVien[j] = temp
+                    }
 
+                }
+            }
+        }
+        displayHocVien(list)
+    }
 </script>
 </body>
 </html>
