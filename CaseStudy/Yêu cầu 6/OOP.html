@@ -127,12 +127,16 @@
         transition-property: box-shadow, transform;
         text-align: center;
         margin: 0 auto;
+        position: relative;
+        border: 5px solid #15f4ee;
+        transition: 1.5s;
     }
 
     .button:hover, .button:focus, .button:active {
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        -wedkit-transform: scale(1.1);
         transform: scale(1.1);
+        box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+        0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+        -wedkit-transform: scale(1.1);
     }
 </style>
 <body>
